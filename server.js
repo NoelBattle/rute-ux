@@ -2,13 +2,35 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express();
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 8080
+
+// Loading evnironmental variables here
 /*
+if (process.env.NODE_ENV !== 'production') {
+	console.log('loading dev environments')
+	require('dotenv').config()
+}
+require('dotenv').config()
+*/
+
+/*
+
+if (process.env.NODE_ENV === 'production') {
+	const path = require('path')
+	console.log('YOU ARE IN THE PRODUCTION ENV')
+	app.use('/static', express.static(path.join(__dirname, '../build/static')))
+	app.get('/', (req, res) => {
+		res.sendFile(path.join(__dirname, '../build/'))
+	})
+}
+
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
-*/
+
 app.set( 'port', ( process.env.PORT || 5000 ));
+*/
 
 // Start node server
 
