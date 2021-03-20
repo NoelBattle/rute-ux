@@ -1,0 +1,31 @@
+#data-wrap-div{
+    width: 20vw;
+    height: 35vh;
+    padding-right: 10px;
+    /*
+    background: MediumPurple;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 90px;
+    */
+    float:right;
+    /*shape-outside: ellipse();
+    */
+}
+#data-pic{
+    display: inline-block;
+}
+#data-idea{
+    border: solid 2px #333333;
+    border-radius: 2em;
+    width:60vw;
+    text-align: center;
+    
+}
+#data-pig-truff{
+   width: 20vw;
+}
+#data-space{
+    height: 15vw;
+}

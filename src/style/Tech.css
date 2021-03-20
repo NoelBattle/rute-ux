@@ -1,0 +1,24 @@
+#tech-col{
+    text-align: center;
+}
+#tech-space{
+    height: 20vw;
+}
+
+#tech-node{
+    height:5vw;
+}
+#tech-mongo{
+    height:3.5vw;
+    position: relative;
+   
+}
+#tech-react{
+    height:9vw;
+}
+#tech-ex{
+    height:4vw;
+   position: relative;
+   right:.25vw;
+   margin-right:2vw;
+}

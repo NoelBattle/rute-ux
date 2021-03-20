@@ -1,0 +1,170 @@
+#animate-div{
+
+}
+#rute-home{
+
+}
+#App{
+    background-color: tan;
+    height: 100vh;
+    
+}
+#footer-row{
+    background-color:green;
+}
+#about-header{
+    position: absolute;
+  
+    top: 10vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-header-pig{
+    width:20vw;
+}
+@media only screen and (max-width: 767px) {
+    #about-header-pig{
+       
+   
+    }
+  }
+#about-header-text{
+    font-size: 10vw;
+    width:20vw;
+    
+}
+#about-header-text-b{
+    font-size: 8vw;
+    
+    
+    margin-top:2vw;
+}
+#about-header-text-s{
+    font-size: 4vw;
+    
+    
+}
+#about-header-text-ss{
+    font-size: 2vw;
+    
+    
+}
+#text{
+padding-bottom: 0px;
+margin-bottom: 0px;
+height: 8vw;
+line-height: 8vw;
+}
+
+#about-space{
+    height: 22vw;
+}
+#about-content{
+    position: relative;
+    
+  
+   height:60vh;
+   
+   margin-bottom: 0;
+   padding-bottom:40px;
+}
+#about-content-text{
+    
+    /*
+    text-align: left;
+    background-color:purple;
+    */
+}
+#about-vid-div{
+    width: 46vw;
+    height: 45vh;
+    padding-right: 10px;
+    /*
+    background: MediumPurple;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 90px;
+    */
+    float:right;
+    /*shape-outside: ellipse();
+    */
+}
+#about-vid{
+    display: inline-block;
+    padding-left:10px;
+}
+
+
+
+.animate-vis{
+    visibility:visible;
+}
+.animate-hide{
+    display: none;
+}
+
+#next-button{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 100px;
+}
+#next-button-col{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+
+}
+#newne{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#text-center{
+    text-align: center;
+}
+#testro{
+   
+   /* margin-bottom:10px;*/
+}
+
+.Foote{
+    background-color:red;
+}
+.Footer{
+    /*
+     
+ 
+     
+    margin-top:20px;
+ 
+    top:160px;
+    position: relative;
+    */
+  
+    position: static;
+    bottom:0px;
+    
+    
+    margin-top:auto;
+ 
+   
+   margin-right:0px;
+   overflow-x: hidden;
+   overflow-y:hidden;
+   
+  
+     background-color: #EAAFA9;
+    
+     height:125px;
+     width:100%;
+     right:0px;
+     
+     padding-top:25px;
+ }

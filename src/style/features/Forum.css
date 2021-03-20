@@ -1,0 +1,13 @@
+#forum-nginx-col{
+    position: relative;
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+#forum-nginx{
+    position: relative;
+    width: 50vw;
+ 
+}

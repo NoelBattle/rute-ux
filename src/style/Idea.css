@@ -1,0 +1,43 @@
+#idea-wrap-div{
+    width: 22vw;
+    height: 40vh;
+    padding-right: 10px;
+    /*
+    background: MediumPurple;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 90px;
+    */
+    float:right;
+    shape-outside: ellipse();
+    /*shape-outside: ellipse();
+    */
+}
+#idea-pic{
+    display: inline-block;
+}
+#idea-idea{
+    border: solid 2px #333333;
+    border-radius: 2em;
+    width:60vw;
+    text-align: center;
+    
+}
+#idea-snout{
+   width: 25vw;
+}
+#idea-space{
+    height: 21vw;
+}
+#idea-bottom-space{
+    /*
+    height: 15vw;
+    */
+    height:20%;
+}
+@media only screen and (max-width: 814px) {
+    #idea-bottom-space{
+        height:30%;
+    }
+  }
