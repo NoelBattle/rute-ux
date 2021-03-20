@@ -3,10 +3,15 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express();
 const port = process.env.PORT || 5000
-
+/*
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
+*/
+app.set( 'port', ( process.env.PORT || 5000 ));
+
+// Start node server
+
 
 app.use(express.static(path.join(__dirname, 'build')));
 
