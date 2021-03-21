@@ -1,8 +1,13 @@
-const express = require('express');
+const express = require('express') ;
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express();
 const port = process.env.PORT || 8080
+const publicPath = path.join(__dirname, '..', 'public');
+app.use(express.static(publicPath));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(publicPath, 'index.html'));
+ });
 
 // Loading evnironmental variables here
 /*
@@ -35,6 +40,8 @@ app.set( 'port', ( process.env.PORT || 5000 ));
 // Start node server
 
 
+// Serve up static assets (usually on heroku)
+/*
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -43,8 +50,8 @@ app.use(bodyParser.json())
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'))
 }
-
+*/
 //app.use(express.static("public"));
 app.listen(port, () => {
-   console.log(`App is running at port: ${port}`);
+   console.log(`App is running at port`);
 })

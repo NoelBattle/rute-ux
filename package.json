@@ -31,7 +31,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "PORT=3006 react-scripts start",
+    "start": "node server/server.js",
     "server": "nodemon server.js",
     "build": "react-scripts build",
     "client": "npm start --prefix client",
