@@ -4,9 +4,6 @@ import './style/App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 //sudo npm install bootstrap --save 
 
-//og start script
-//"start": "react-scripts start",
-
 import { Router as Router, Route, Switch, Link,withRouter } from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom' 
 
@@ -40,6 +37,8 @@ import Darkmode from "./components/features/Darkmode"
 import Footer from "./components/layout/Footer"
 import Tech from "./components/Tech";
 
+import Todo from "./components/Todo"
+import Me from "./components/Me"
 import Timeline from "./components/Timeline"
 
 import Gallery from "./components/Gallery"
@@ -52,31 +51,31 @@ class App extends Component {
     this.state = {
       dark:"no",
       navCol:"",
-  } 
-}
-
-componentWillMount() {
-  this.callbackFunctionNav()
-  this.callbackFunctionDark()
-}
-callbackFunctionDark = async(data) => {
-  if(data){
-   this.setDark(data)
-  // console.log("app is dark?"+data)
-   return data
+    } 
   }
- }
-setDark  = (data) =>{
-  this.setState({dark: data})
-}
 
-callbackFunctionNav = (data) => {
-    this.setState({navCol: data})
-    //console.log("nav is col"+data)
+  componentWillMount() {
+    this.callbackFunctionNav()
+    this.callbackFunctionDark()
+  }
+
+  callbackFunctionDark = async(data) => {
+    if(data){
+    this.setDark(data)
     return data
+    }
   }
+
+  setDark  = (data) =>{
+    this.setState({dark: data})
+  }
+
+  callbackFunctionNav = (data) => {
+      this.setState({navCol: data})
+      return data
+    }
+
   render() {
-   
     return (
       <BrowserRouter> 
         <Navbar  parentCallbackNav={this.callbackFunctionNav} dark={(((this.state.dark)=="yes") ? 'yes' : 'no')}/> 
@@ -86,8 +85,8 @@ callbackFunctionNav = (data) => {
           <Route exact path="/research" component={Research} />
           <Route exact path="/info-architecture" component={Info} />
           <Route exact path="/user-flow" component={FlowChart} />
+          <Route exact path="/wireframing" component={Wireframe} />
           <Route exact path="/data-collection" component={Data} />
-
           <Route exact path="/features/directory-school" component={Dir} /> 
           <Route exact path="/features/login-register" component={Login} /> 
           <Route exact path="/features/favorites-list" component={Favorites} />
@@ -99,15 +98,11 @@ callbackFunctionNav = (data) => {
           <Route exact path="/features/file-upload" component={Files} />
           <Route exact path="/features/calendar" component={Calendar} />
           <Route exact path="/features/change-password" component={Forgot} />
-          <Route exact path="/features/dark-mode" component={Darkmode} />
           <Route exact path="/features/forum" component={Forum} />
-          
-          
-          
-
-          
+          <Route exact path="/features/dark-mode" component={Darkmode} />
           <Route exact path="/technologies" component={Tech} />
-          <Route exact path="/wireframing" component={Wireframe} />
+          <Route exact path="/todo" component={Todo} />
+          <Route exact path="/about-me" component={Me} />
           <Route exact path="/timeline" component={Timeline} />
           <Switch>
             <Route exact path='/ui'  render={routerProps => <UI parentCallbackDark={this.callbackFunctionDark}
@@ -116,7 +111,7 @@ callbackFunctionNav = (data) => {
             <Route exact path='/'  render={routerProps => <About navCol={(((this.state.navCol)) ? "yes" : "no")}/>}/>
           </Switch>
         </div>
-      </BrowserRouter>
+    </BrowserRouter>
     );
   }
 }

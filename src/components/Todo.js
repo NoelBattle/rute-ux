@@ -2,20 +2,12 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
 import '../style/Tech.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn,faRobot } from '@fortawesome/free-solid-svg-icons'
+import { faClipboardList } from '@fortawesome/free-solid-svg-icons'
 
-import  expressPic from './../imgs/tech/express.png'
-import  JWTPic from './../imgs/tech/jwt.png'
-import  mongoPic from './../imgs/tech/mongo.png'
-import  nodePic from './../imgs/tech/node.png'
-import  nodeBBPic from './../imgs/tech/nodebb.png'
-import  passportPic from './../imgs/tech/passport.png'
-import  reactPic from './../imgs/tech/react.png'
-import  reduxPic from './../imgs/tech/redux.png'
 import Footer from "./layout/Footer";
 
 
-class Tech extends Component {
+class Todo extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
        }
@@ -27,11 +19,11 @@ class Tech extends Component {
                     <div class="col" id="text-center">
                         <div class="row">
                             <div class="col">
-                            <FontAwesomeIcon id="header-icon"  icon={faRobot} />
+                            <FontAwesomeIcon id="header-icon"  icon={faClipboardList} />
                             </div>
                         </div>
                         <div class="row" id="header-text" >
-                            <div class="col">Technologies</div>
+                            <div class="col">Todo</div>
                         </div>
                         <div class="row" id="idea-idea">
                             <div class="col" id="text-content-style">
@@ -47,57 +39,69 @@ class Tech extends Component {
                             <div class="col-md-4">
                                 <div  class="row" id="info-prov-header">
                                     <div class="col">
-                                        <span id="text-content-style"> Server </span>
+                                        <span id="text-content-style"> Backend </span>
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
                                     <div class="row">
-                                        <div class="col-md-5" id="tech-col">
-                                            <img id="tech-node" src={nodePic}/> 
-                                        </div>
-                                        <div class="col-md-7 align-self-center">
-                                            (fast and efficient)
-                                        </div>
+                                        <li class="col align-self-center">
+                                            Complete event system
+                                        </li>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5" id="tech-col">
-                                            <img  id="tech-ex" src={expressPic} /> 
-                                        </div>
-                                        <div class="col-md-7 align-self-center">
-                                            (powerful middleware)
-                                        </div>
+                                        <li class="col align-self-center">
+                                            Finish the progress circles, compare page, and overview page
+                                        </li>
+                                    </div>
+                                    <div class="row">
+                                        <li class="col align-self-center">
+                                            Upload to Digital Ocean server
+                                        </li>
+                                    </div>
+                                    <div class="row">
+                                        <li class="col align-self-center">
+                                            Complete forum integration
+                                        </li>
+                                    </div>
+                                    <div class="row">
+                                        <li class="col align-self-center">
+                                            HTTPS config/security
+                                        </li>
                                     </div>
                                 </p>
                             </div>
                             <div class="col-md-4">
                                 <div  class="row" id="info-prov-header">
                                     <div class="col">
-                                        <span id="text-content-style"> Database </span>
+                                        <span id="text-content-style"> Frontend </span>
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                <div class="row">
-                                    <div class="col-md-12" id="tech-col"><img  id="tech-mongo" src={mongoPic} /> </div>
+                                    <div class="row">
+                                        <li class="col align-self-center">
+                                            Fix glitches
+                                        </li>
                                     </div>
                                     <div class="row">
-                                    <div class="col-md-12" id="tech-col">(scalable and powerful) </div>
-                                    
+                                        <li class="col align-self-center">
+                                            Improve speed
+                                        </li>
                                     </div>
                                 </p>
                             </div>
+
+
                             <div class="col-md-4">
                                 <div  class="row" id="info-prov-header">
                                     <div class="col">
-                                        <span id="text-content-style"> Front-End </span>
+                                        <span id="text-content-style"> UX </span>
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                <div class="row">
-                                    <div class="col-md-12" id="tech-col"><img  id="tech-react" src={reactPic} /> </div>
-                                    </div>
                                     <div class="row">
-                                    <div class="col-md-12" id="tech-col">(SEO friendly and powerful) </div>
-                                    
+                                        <li class="col align-self-center">
+                                            Alpha/Comprehension testing
+                                        </li>
                                     </div>
                                 </p>
                             </div>
@@ -107,33 +111,19 @@ class Tech extends Component {
                                 <div class="col-md-4">
                                     <div  class="row" id="info-prov-header">
                                         <div class="col">
-                                            <span id="text-content-style"> Authentication </span>
+                                            <span id="text-content-style"> UI </span>
                                         </div>
                                     </div>
                                     <p id="text-list-style" class="center-wid">
                                         <div class="row">
-                                            <div class="col-md-4" >
-                                                <img  id="tech-node" src={passportPic}/> 
-                                            </div>
-                                            <div class="col-md-8 align-self-center">
-                                                (flexible and modular)
-                                            </div>
+                                            <li class="col align-self-center">
+                                                Finalize fonts and text sizes
+                                            </li>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <img  id="tech-node" src={JWTPic}/> 
-                                            </div>
-                                            <div class="col-md-8 align-self-center">
-                                                (efficient hashing/encrpyting)
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <img id="tech-node" src={reduxPic}/> 
-                                            </div>
-                                            <div class="col-md-8 align-self-center">
-                                                (powerful state manager)
-                                            </div>
+                                            <li class="col align-self-center">
+                                                Finalize spacing and shadows
+                                            </li>
                                         </div>
                                     </p>
                                 </div>
@@ -141,17 +131,19 @@ class Tech extends Component {
                             <div class="col-md-4">
                                 <div  class="row" id="info-prov-header">
                                     <div class="col">
-                                        <span id="text-content-style"> Forum </span>
+                                        <span id="text-content-style"> Data Collection </span>
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
                                     <div class="row">
-                                        <div class="col-md-12" id="tech-col">
-                                            <img  id="tech-mongo" src={nodeBBPic} /> 
-                                        </div>
+                                        <li class="col align-self-center">
+                                            Update event data
+                                        </li>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-12" id="tech-col">(Fast, great plugins, scalable) </div>
+                                        <li class="col align-self-center">
+                                            Add more parameters to the matching algorithm
+                                        </li>
                                     </div>
                                 </p>
                             </div>
@@ -163,12 +155,12 @@ class Tech extends Component {
 
                 <div class="row" id="next-prev-buttons" >
                     <div class="col">
-                        <NavLink to={"/features/dark-mode"} id="link-no-style" >
+                        <NavLink to={"/ui"} id="link-no-style" >
                             <button  id="button-l" class="button-center-l" >Prev</button>
                         </NavLink>
                     </div>
                     <div class="col">
-                        <NavLink to={"/ui"} id="link-no-style" >
+                        <NavLink to={"/about-me"} id="link-no-style" >
                             <button  id="button-l" class="button-center-r">Next</button>
                         </NavLink>
                     </div>
@@ -183,4 +175,4 @@ class Tech extends Component {
         );
     }
 }
-export default Tech;
+export default Todo;

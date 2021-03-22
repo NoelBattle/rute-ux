@@ -1,7 +1,6 @@
 #idea-wrap-div{
     width: 22vw;
-    height: 40vh;
-    padding-right: 10px;
+    height: 45vh;
     /*
     background: MediumPurple;
     color: #111;
@@ -25,7 +24,10 @@
     
 }
 #idea-snout{
-   width: 25vw;
+   width: 20vw;
+   position: relative;
+   padding-left: 2vw;
+   
 }
 #idea-space{
     height: 21vw;

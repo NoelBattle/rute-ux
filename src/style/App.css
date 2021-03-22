@@ -4,7 +4,7 @@
   padding-right:0%;
   background-color: #EAAFA9;
   
-  height:100vh;
+  height:101vh;
   /*
   margin-left: 200px;
  
@@ -52,6 +52,19 @@
 .comp-d-left-borde{
   border-left: solid 3px #EAAFA9;
 }
+
+@media only screen and (max-width:910px) and (min-width:767px) {
+  #content-col{
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #content-col{
+    height: 20vh;
+  }
+}
+
+
 html{
   
   
@@ -108,6 +121,11 @@ body{
 #text-content-style{
   font-size: 1.8vw;
   }
+  #text-wrap{
+    margin-right: 1vw;
+    font-size: 1.8vw;
+   
+  }
   #text-list-style{
     font-size: 1.4vw;
     }
@@ -123,8 +141,8 @@ body{
 
 #next-prev-buttons{
   margin-bottom: 2vw;
-  margin-top: 2vw;
- padding-bottom: 2vw;
+  margin-top: 3vw;
+ padding-bottom: 3vw;
 }
 @media only screen and (max-width: 767px) {
   #next-prev-buttons{

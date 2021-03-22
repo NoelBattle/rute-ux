@@ -1,6 +1,7 @@
 #res-wrap-div{
-    width: 22vw;
-    height: 40vh;
+    width: 32vw;
+    height: 30vh;
+    margin-bottom: 2vw;
     padding-right: 10px;
     /*
     background: MediumPurple;
@@ -24,8 +25,20 @@
     
 }
 #res-pc{
-   width: 25vw;
+   width: 20vw;
+   position: relative;
+   bottom:2vw;
+   
 }
 #res-space{
     height: 21vw;
+}
+#res-prov-header{
+    text-align: center;
+    border-bottom: solid 2px #333333;
+    width: 100%;
+    margin-left: .5vw;
+    margin-right: .5vw;
+    padding-top:2vw;
+    
 }
