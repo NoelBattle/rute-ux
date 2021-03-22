@@ -32,7 +32,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "start node server.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "build": "react-scripts build",
     "client": "npm start --prefix client",
