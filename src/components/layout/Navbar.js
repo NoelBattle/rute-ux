@@ -19,6 +19,9 @@ class Navbar extends Component {
         } 
         this.navCollapse = this.navCollapse.bind(this)
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+       }
     componentDidUpdate(previousProps, previousState) {
         if((this.props.dark)=="yes"){
             if (previousProps.dark !== this.props.dark) {
