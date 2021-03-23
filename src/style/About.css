@@ -129,42 +129,4 @@ line-height: 8vw;
 #text-center{
     text-align: center;
 }
-#testro{
-   
-   /* margin-bottom:10px;*/
-}
 
-.Foote{
-    background-color:red;
-}
-.Footer{
-    /*
-     
- 
-     
-    margin-top:20px;
- 
-    top:160px;
-    position: relative;
-    */
-  
-    position: static;
-    bottom:0px;
-    
-    
-    margin-top:auto;
- 
-   
-   margin-right:0px;
-   overflow-x: hidden;
-   overflow-y:hidden;
-   
-  
-     background-color: #EAAFA9;
-    
-     height:125px;
-     width:100%;
-     right:0px;
-     
-     padding-top:25px;
- }

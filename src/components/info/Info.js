@@ -171,7 +171,7 @@ class Info extends Component {
                     </NavLink>
                 </div>
                 <div class="col">
-                <NavLink to={"/wireframing"} id="link-no-style" >
+                <NavLink to={"/data-collection"} id="link-no-style" >
                     <button  id="button-l" class="button-center-r" >Next</button>
                 </NavLink>
                 </div>
@@ -181,7 +181,6 @@ class Info extends Component {
                 <Footer/>
             </div>
         </div>
-        
         );
     }
 }

@@ -1,6 +1,6 @@
 #info-flow-pic{
-    width:100%;
-
+    width:85vw;
+padding-left:3vw;
 }
 
 #info-chart-div{
@@ -11,17 +11,7 @@
     width: 15vw;
     height: 30vh;
     padding-right: 0px;
-    
-    /*
-    background: MediumPurple;
-    color: #111;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 90px;
-    */
     float:right;
-    /*shape-outside: ellipse();
-    */
 }
 #info-pic{
     display: inline-block;
@@ -54,7 +44,7 @@
 }
 #info-arch{
     position: relative;
-    width: 100%;
+    width: 85vw;
 }
 
 #info-prov-row{

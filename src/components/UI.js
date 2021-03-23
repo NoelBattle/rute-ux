@@ -235,9 +235,12 @@ class UI extends Component {
                             </Link> to create charts/diagrams.
                         </p>
                         <p id="text-content-style">
-                            For a full gallery of UI I created please visit my other <NavLink to={"/gallery"}  >
+                        
+                            For a full gallery of UI I created please visit my other <Link 
+                                to="/https://rute-ui.herokuapp.com/" 
+                                target="_blank" onClick={() => window.open("https://rute-ui.herokuapp.com/", "_blank")} >
                                 site
-                            </NavLink>.
+                            </Link>.
                         </p>
                     </div>
                     <div class="col-md-1"></div>

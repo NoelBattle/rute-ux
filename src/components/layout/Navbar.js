@@ -204,21 +204,6 @@ class Navbar extends Component {
 
                         <div id="sidenav-li">
                             <div  class="nav-divider">
-                                <NavLink to={"/wireframing"} id="navhead" activeClassName="hov-active">
-                                    <div class="row" id="sidenav-icon-row">
-                                        <div class="col-md-3" id="sidenav-icon-col">
-                                            <FontAwesomeIcon id="sidenav-icon"  icon={faSkull}/>
-                                        </div>
-                                        <div class="col-md-9" id="sidenav-link-col">
-                                            <span id="sidenav-link">Wireframing</span>
-                                        </div>
-                                    </div>
-                                </NavLink>
-                            </div>
-                        </div>
-
-                        <div id="sidenav-li">
-                            <div  class="nav-divider">
                                 <NavLink to={"/data-collection"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -231,7 +216,21 @@ class Navbar extends Component {
                                 </NavLink>
                             </div>
                         </div>
-                        
+
+                        <div id="sidenav-li">
+                            <div  class="nav-divider">
+                                <NavLink to={"/wireframing"} id="navhead" activeClassName="hov-active">
+                                    <div class="row" id="sidenav-icon-row">
+                                        <div class="col-md-3" id="sidenav-icon-col">
+                                            <FontAwesomeIcon id="sidenav-icon"  icon={faSkull}/>
+                                        </div>
+                                        <div class="col-md-9" id="sidenav-link-col">
+                                            <span id="sidenav-link">Wireframing</span>
+                                        </div>
+                                    </div>
+                                </NavLink>
+                            </div>
+                        </div>
 
                         <div id="sidenav-li">
                             <div   class="nav-divider" >

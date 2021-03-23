@@ -139,7 +139,7 @@ class Wireframe extends Component {
                             </div>
                         </div>
                         <p id="text-content-style">
-                        Now that I had built the structure for Rute, it was time to start filling it with data. 
+                        Now that I had built the structure for Rute and designed the style, it was time to integrate the data we collected. 
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -147,14 +147,14 @@ class Wireframe extends Component {
 
                 <div class="row" id="next-prev-buttons" >
                     <div class="col">
-                    <NavLink to={"/info-architecture"} id="link-no-style" >
+                    <NavLink to={"/data-collection"} id="link-no-style" >
                         <button  id="button-l" class="button-center-l" >
                             Prev
                         </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/data-collection"} id="link-no-style" >
+                    <NavLink to={"/features/directory-school"} id="link-no-style" >
                         <button  id="button-l" class="button-center-r" >
                             Next
                         </button>

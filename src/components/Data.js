@@ -78,12 +78,12 @@ class Data extends Component {
 
             <div class="row" id="next-prev-buttons" >
                 <div class="col">
-                    <NavLink to={"/wireframing"} id="link-no-style" >
+                    <NavLink to={"/info-architecture"} id="link-no-style" >
                         <button  id="button-l" class="button-center-l" > Prev</button>
                     </NavLink>
                 </div>
                 <div class="col">
-                    <NavLink to={"/features/directory-school"} id="link-no-style" >
+                    <NavLink to={"/wireframing"} id="link-no-style" >
                         <button  id="button-l" class="button-center-r" >Next </button>
                     </NavLink>
                 </div>

@@ -1,54 +1,35 @@
 #apa-full{
-  
   padding-left:0%;
   padding-right:0%;
   background-color: #EAAFA9;
-  
   height:101vh;
-  /*
-  margin-left: 200px;
- 
-  media quiriy 0 when  
-  width: 89%;
-  */
-  
   opacity: 1;  
   width: 102%;
 }
 
 #apa{
-  
   padding-left:0%;
   padding-right:0%;
   background-color: #EAAFA9;
-  
   padding-left: 200px;
-  /*
-   margin-left: 200px;
-  padding-left: 200px;
-  margin-left: 200px;
-  */
   height:100vh;
- 
   width: 100%;
-  
- 
   opacity: 1;  
-  
 }
+
 #comp-div{
-  
   position: relative;
   padding-right: 2%;
   background-color: #ffffff;
 }
+
 #comp-div-d{
- 
   position: relative;
   background-color: #333333;
   padding-right: 2%;
   color:#F5F5F5;
 }
+
 .comp-d-left-borde{
   border-left: solid 3px #EAAFA9;
 }
@@ -64,22 +45,24 @@
   }
 }
 
-
-html{
-  
-  
-}
-body{
-  
-  
-}
 .Footer{
-  height:10vw;
-  position: relative;
+  position: static;
+  bottom:0px;
+  margin-top:auto;
+  margin-right:0px;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  background-color: #EAAFA9;
+  height:125px;
+  width:100%;
+  right:0px;
+  padding-top:25px;
 }
+
 .bold{
   font-weight: bold;
 }
+
 #footer-div{
   width: 102%;
   overflow-x: hidden;
@@ -87,78 +70,78 @@ body{
   position: static;
   bottom:0;
 }
+
 #app-footer{
   position: static;
   bottom:0px;
   width:100vw;
 }
+
 #page-header{
   position: absolute;
   top: 10vw;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
+
 .center-widt{
   position: relative;
-  
   margin-left: auto;
   margin-right: auto;
-  
 }
+
 .center-width{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  
-  
-  
 }
+
 #header-icon,#header-text{
   font-size:5vw;
 }
 
 #text-content-style{
   font-size: 1.8vw;
-  }
-  #text-wrap{
-    margin-right: 1vw;
-    font-size: 1.8vw;
-   
-  }
-  #text-list-style{
-    font-size: 1.4vw;
-    }
-    #text-image-style{
-      font-size: 20px;
-      }
+}
+
+#text-wrap{
+  margin-right: 1vw;
+  font-size: 1.8vw;
+}
+
+#text-list-style{
+  font-size: 1.4vw;
+}
+
+#text-image-style{
+  font-size: 20px;
+}
 
 #icon-button{
   border:none;
-   background-color:transparent;
-   outline:none;
+  background-color:transparent;
+  outline:none;
 }
 
 #next-prev-buttons{
   margin-bottom: 2vw;
   margin-top: 3vw;
- padding-bottom: 3vw;
+  padding-bottom: 3vw;
 }
-@media only screen and (max-width: 767px) {
-  #next-prev-buttons{
-    
-  }
-}
+
 .button-center{
   margin-left: auto;
   margin-right: auto;
 }
+
 .button-center-l{
   float: right;
 }
+
 .button-center-r{
   float: left;
 }
+
 @media only screen and (max-width: 767px) {
   .button-center-l{
     float: left;
@@ -173,53 +156,49 @@ body{
     float: right;
   }
 }
+
 #button-l{
   position: relative;
   background-color: #F5F5F5;
-    color: #333333;
+  color: #333333;
   border: solid 2px;
   border-radius: 500px; /*Makes the pill*/
   width:115px;
   height:45px;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
   outline: inherit;
-  /*left:500px;*/
-  
 }
+
 #button-d{
   position: relative;
   background-color: #333333;
-    color: #F5F5F5;
-
+  color: #F5F5F5;
   border: solid 2px #F5F5F5;
-  border-radius: 500px; /*Makes the pill*/
+  border-radius: 500px; 
   width:115px;
   height:45px;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
   outline: inherit;
-  /*left:500px;*/
-  
 }
+
 #button-l-selected{
   position: relative;
   background-color: #EAAFA9;
-    color: #333333;
-
+  color: #333333;
   border: solid 2px #333333;
-  border-radius: 500px; /*Makes the pill*/
+  border-radius: 500px; 
   width:115px;
   height:45px;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
   outline: inherit;
-  /*left:500px;*/
-  
 }
+
 #button-d:hover{
   border: solid 2px #EAAFA9;
   color:#EAAFA9;
@@ -228,10 +207,11 @@ body{
 #button-l:hover{
   background-color:#EAAFA9;
 }
+
 #link-no-style{
   color: inherit;
-  /*text-decoration: underline;*/
 }
+
 #link-black{
   color:#333333;
 }
@@ -239,6 +219,7 @@ body{
 #link-black:hover{
   text-decoration: underline;
 }
+
 #link-no-style:hover{
   text-decoration: none;
 }

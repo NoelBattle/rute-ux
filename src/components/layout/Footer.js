@@ -12,7 +12,7 @@ function Footer() {
                 
                 <div class="row" style={{zIndex:"999"}}>
                 <div  class="col-md-3" id="copyright">
-                <ul> <a href="#" id="link-black" class="bold"  >&copy; 2021 Noel Battle All rights reserved </a></ul>
+                <ul> <Link to="about-me" id="link-black" class="bold"  >&copy; 2021 Noel Battle All rights reserved </Link></ul>
 
                     </div>
                     <div  class="col-md-3">
