@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 import {withRouter} from "react-router-dom"
 import '../../style/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn, faLightbulb, faRobot, faCogs, faStar, faCaretDown, faCaretUp, faPaintBrush,faPoll,faDatabase, faSitemap, faClipboardList, faUser, faSkull, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn, faLightbulb, faRobot, faCogs, faStar, faCaretDown, faCaretUp, faPaintBrush,faPoll,faDatabase, faSitemap, faClipboardList, faUser, faSkull, faClock, faBrain } from '@fortawesome/free-solid-svg-icons'
 import  logo from './../../imgs/snute.png'
 
 class Navbar extends Component {
@@ -92,9 +92,9 @@ class Navbar extends Component {
    
   render() {
     return (
-      <div id="nav-comp">
+      <div>
         {this.state.navCol &&
-            <div id="navLogo" style={{zIndex:"15",}}>
+            <div id="nav-logo" style={{zIndex:"15",}}>
                 <div  id={(this.state.darkmode)=="yes"?"nav-col-logo-bg-d":"no"?"nav-col-logo-bg-l":""} style={{zIndex:"1"}}>
                 </div>
                 <button id="icon-button" class="nav-hamburger" style={{zIndex:"15"}} onClick={this.navCollapse}>
@@ -130,11 +130,11 @@ class Navbar extends Component {
                     </NavLink>
                 </span>
             </section>
-            <div  id="navScroll">
+            <div>
                 <section id="nav-collapse">
                     <ul className="left_navlinks">
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/idea"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -148,8 +148,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/research"} id="navhead" activeClassName="hov-active" > 
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -163,8 +163,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav">
+                        <div id="sidenav-li">
+                            <div class="nav-divider">
                                 <div class="row"  id="sidenav-icon-row">
                                     <NavLink to={"/info-architecture"} id="navhead" activeClassName="hov-active">
                                         <div class="col-md-3" id={(this.state.info)?"sidenav-icon-col-active":"sidenav-icon-col"}>
@@ -199,8 +199,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div  class="divider_nav">
+                        <div id="sidenav-li">
+                            <div  class="nav-divider">
                                 <NavLink to={"/wireframing"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -214,8 +214,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div  class="divider_nav">
+                        <div id="sidenav-li">
+                            <div  class="nav-divider">
                                 <NavLink to={"/data-collection"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -230,8 +230,8 @@ class Navbar extends Component {
                         </div>
                         
 
-                        <div id="sidenav_li">
-                            <div   class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div   class="nav-divider" >
                                 <div class="row"  id="sidenav-icon-row">
                                     <NavLink to={"/features/directory-school"} id="navhead" activeClassName="hov-active">
                                         <div class="col-md-3"  id={(this.state.features)?"sidenav-icon-col-active":"sidenav-icon-col"}>
@@ -307,8 +307,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/technologies"} id="navhead" activeClassName="hov-active">
                                     <div class="row"  id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -322,8 +322,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/ui"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -337,8 +337,8 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav">
+                        <div id="sidenav-li">
+                            <div class="nav-divider">
                                 <NavLink to={"/todo"} id="navhead" activeClassName="hov-active">
                                     <div class="row"  id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
@@ -352,12 +352,12 @@ class Navbar extends Component {
                             </div>
                         </div>
 
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/about-me"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
-                                            <FontAwesomeIcon id="sidenav-icon"  icon={faUser} />
+                                            <FontAwesomeIcon id="sidenav-icon"  icon={faBrain} />
                                         </div>
                                         <div class="col-md-9" id="sidenav-link-col">
                                             <span id="sidenav-link">About Me</span>
@@ -366,8 +366,8 @@ class Navbar extends Component {
                                 </NavLink>
                             </div>
                         </div>
-                        <div id="sidenav_li">
-                            <div class="divider_nav" >
+                        <div id="sidenav-li">
+                            <div class="nav-divider" >
                                 <NavLink to={"/timeline"} id="navhead" activeClassName="hov-active">
                                     <div class="row" id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">

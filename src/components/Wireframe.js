@@ -4,6 +4,21 @@ import '../style/Wireframe.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSkull } from '@fortawesome/free-solid-svg-icons'
 import  Dir from './../imgs/wireframe/Directory.png'
+import  about1 from './../imgs/wireframe/About-1.png'
+import  about2 from './../imgs/wireframe/About-2.png'
+import  about3 from './../imgs/wireframe/About-3.png'
+import  about4 from './../imgs/wireframe/About-4.png'
+import  Dash from './../imgs/wireframe/Dashboard.png'
+import  Edit from './../imgs/wireframe/edit-account.png'
+import  Essays from './../imgs/wireframe/Essays.png'
+import  Logout from './../imgs/wireframe/logout.png'
+import  Circ from './../imgs/wireframe/nav-circle.png'
+import  Profile from './../imgs/wireframe/Profile.png'
+import  aboutSchool from './../imgs/wireframe/School-about.png'
+import  acadSchool from './../imgs/wireframe/School-academics.png'
+import  adSchool from './../imgs/wireframe/School-admission.png'
+import  finSchool from './../imgs/wireframe/School-Financial.png'
+import  topSearch from './../imgs/wireframe/top-nav-search.png'
 import Footer from "./layout/Footer";
 
 class Wireframe extends Component {
@@ -36,54 +51,91 @@ class Wireframe extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p id="text-content-style">
-                        Now it was time to make the skeleton. I created these low fidelity wireframes for the site’s routes in Adobe XD. 
+                        Now it was time to make the skeleton. I created these low-mid fidelity wireframes for the site’s main routes in Adobe XD. 
                         Below are the wireframes for the main routes, the other routes’ wireframes can be found  in the 
-                        ‘Features’ <NavLink to={"/wireframing"} id="navhea" >
-                                    section
-                                </NavLink> . 
-                        I used these wireframes as a visual reference when I coded prototypes in React.
+                        ‘Features’ section. 
+                        I used these wireframes as a visual reference for when I coded the functional prototypes in React.
                         </p>
 
                         <p id="text-content-style">
                         Note: Non-registered users can only access the Homepage and Directory. Trying to access another route prompts the user to login/register. 
-                        More on this in the 'Login/Register' <NavLink to={"/wireframing"} id="navhea" >
+                        More on this in the 'Login/Register' <NavLink to={"/features/login-register"} id="navhea" >
                                     section
                                 </NavLink> . 
                         </p>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Home</span></div>
                             <div class="col-md-10">
+                                <img  id="wireframe-dir" src={about1} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Top Nav Search</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={topSearch} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Profile Circle</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={Circ} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Edit Account</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={Edit} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Directory</span></div>
+                            <div class="col-md-10">
                                 <img  id="wireframe-dir" src={Dir} />
                             </div>
                         </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">School: About</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={aboutSchool} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Admissions</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={adSchool} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Academics</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={acadSchool} />
+                            </div>
+                        </div>
+                        <div class="row" id="ui-pic-row">
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Financial</span></div>
+                            <div class="col-md-10">
+                                <img  id="wireframe-dir" src={finSchool} />
+                            </div>
+                        </div>
+                        
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Profile</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
+                                <img  id="wireframe-dir" src={Profile} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
-                            <div class="col-md-2 align-self-center">Dashboard</div>
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Dashboard</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
+                                <img  id="wireframe-dir" src={Dash} />
                             </div>
                         </div>
+                        
+                       
                         <div class="row" id="ui-pic-row">
-                            <div class="col-md-2 align-self-center">Directory</div>
+                            <div class="col-md-2 align-self-center"><span id="wireframe-label">Essays</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
-                            </div>
-                        </div>
-                        <div class="row" id="ui-pic-row">
-                            <div class="col-md-2 align-self-center">Essays</div>
-                            <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
-                            </div>
-                        </div>
-                        <div class="row" id="ui-pic-row">
-                            <div class="col-md-2 align-self-center">Forum</div>
-                            <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
+                                <img  id="wireframe-dir" src={Essays} />
                             </div>
                         </div>
                         <p id="text-content-style">
