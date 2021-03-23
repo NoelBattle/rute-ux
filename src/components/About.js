@@ -100,7 +100,7 @@ class About extends Component {
                       <li>Conducting User Research</li>
                       <li>Designing the UI and Flow</li>
                       <li>Collecting Data</li>
-                      <li>Wireframing and Prototypging</li>
+                      <li>Wireframing and Prototyping</li>
                       <li>Developing Functional Web Application</li>
                   </p>
                   <p id="text-content-style" class="center-wid">
