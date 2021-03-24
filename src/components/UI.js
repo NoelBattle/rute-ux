@@ -132,7 +132,7 @@ class UI extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p id="text-content-style">
-                        The first thing I designed was the logo. I got the inspiration from one of my friends from Texas who has a pet pig named pearl. To me the best logos are cute and simple, and I think this checks those boxes.
+                        The first thing I designed was the logo. I got the inspiration from one of my friends from Texas who has a pet pig named Pearl. To me the best logos are cute and simple, and I think this checks those boxes.
                         </p>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-6">
@@ -207,7 +207,7 @@ class UI extends Component {
                             </div>
                                 <div id={(this.state.darkmode)=="yes"?"ui-rounded-container-d":"no"?"ui-rounded-container-l":""}>
                                     <p id="text-content-style">
-                                        I designed the button and containers with rounded edges to match the “chill” vibe of the website. I also added a dark/ light mode to add to the user experience.
+                                    I designed the buttons and containers with rounded edges to match the “chill” vibe of the website. I also added a dark/light mode to add to the user experience.
                                     </p>
                                     <p id="text-content-style">
                                         Try Below
@@ -236,7 +236,7 @@ class UI extends Component {
                         </p>
                         <p id="text-content-style">
                         
-                            For a full gallery of UI I created please visit my other <Link 
+                            For a full gallery of UI I created, please visit my other <Link 
                                 to="/https://rute-ui.herokuapp.com/" 
                                 target="_blank" onClick={() => window.open("https://rute-ui.herokuapp.com/", "_blank")} >
                                 site
@@ -255,7 +255,7 @@ class UI extends Component {
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/todo"} id="link-no-style" >
+                    <NavLink to={"/to-do"} id="link-no-style" >
                         <button  id="button-l" class="button-center-r" >
                             Next
                         </button>

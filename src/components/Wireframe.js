@@ -51,17 +51,14 @@ class Wireframe extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p id="text-content-style">
-                        Now it was time to make the skeleton. I created these low-mid fidelity wireframes for the site’s main routes in Adobe XD. 
-                        Below are the wireframes for the main routes, the other routes’ wireframes can be found  in the 
-                        ‘Features’ section. 
-                        I used these wireframes as a visual reference for when I coded the functional prototypes in React.
+                        Now it was time to make the skeleton. I created these low-mid fidelity wireframes for the site’s main routes in Adobe XD. I used these wireframes as a visual reference for when I coded the functional prototypes in React.
                         </p>
 
                         <p id="text-content-style">
-                        Note: Non-registered users can only access the Homepage and Directory. Trying to access another route prompts the user to login/register. 
+                        Note: Non-registered users can only access the Home page and Directory. Trying to access another route prompts the user to login/register. 
                         More on this in the 'Login/Register' <NavLink to={"/features/login-register"} id="navhea" >
                                     section
-                                </NavLink> . 
+                                </NavLink>. 
                         </p>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Home</span></div>
@@ -139,7 +136,7 @@ class Wireframe extends Component {
                             </div>
                         </div>
                         <p id="text-content-style">
-                        Now that I had built the structure for Rute and designed the style, it was time to integrate the data we collected. 
+                        Now that the structure and styling was finished, it was time to integrate the data we collected.
                         </p>
                     </div>
                     <div class="col-md-1"></div>

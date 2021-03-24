@@ -36,13 +36,13 @@ class Calc extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <div>
-                            <div id="res-wrap-div">
+                            <div id="calc-wrap-div">
                                 <span id="res-pic">
                                     <img alt="timer" id="res-pc" src={uiCalc} />
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            A major pain point I found in my interviews is the extreme cost for submitting medical school applications, especially  for people who are applying to 10+ schools. I made a formula to calculate the total cost to apply per school. I integrated this formula with the school’s information on rute, and now it calculates how much it would cost to  apply to the schools on a user’s favorites list. 
+                            A major pain point I found in my interviews is the high cost for submitting medical school applications, especially for people who are applying to 10+ schools. I made a formula to calculate the total cost to apply per school. I integrated this formula with the school’s information on Rute, and now it calculates how much it would cost to apply to the schools on a user’s favorites list.
                             </p>
                         </div>
                         <p id="text-content-style">

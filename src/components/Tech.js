@@ -60,9 +60,10 @@ class Tech extends Component {
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-5" id="tech-col">
+                                        <div class="col-md-2" id="tech-ex">
                                             <img  id="tech-ex" src={expressPic} /> 
                                         </div>
+                                        <div class="col-md-3"></div>
                                         <div class="col-md-7 align-self-center">
                                             (powerful middleware)
                                         </div>
@@ -120,15 +121,16 @@ class Tech extends Component {
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <img  id="tech-node" src={JWTPic}/> 
+                                            <div class="col-md-2">
+                                                <img  id="tech-jwt" src={JWTPic}/> 
                                             </div>
+                                            <div class="col-md-2"></div>
                                             <div class="col-md-8 align-self-center">
                                                 (efficient hashing/encrpyting)
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-4" id="tech-ex">
                                                 <img id="tech-node" src={reduxPic}/> 
                                             </div>
                                             <div class="col-md-8 align-self-center">

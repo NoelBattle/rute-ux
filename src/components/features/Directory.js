@@ -42,12 +42,12 @@ class Directory extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            During my user research phase, I discovered that two big pain points of the current medical school sites were that they either had too little information or too much scrolling. I try to solve this through the use of tabs. Every schools’ information, social media, and contact links are up to date.
+                            During my user research phase, I discovered that two big pain points of the current medical school sites were that they either had too little information or too much scrolling. I solve this through the use of tabs. Every schools’ information, social media, and contact links are up to date.
                             </p>
                         </div>
                 
                         <p id="text-content-style">
-                        The video below is fast forwarded to the Directory and School Pages sections of the ‘Rute Website Flow’ demo video.
+                        The video below is fast forwarded to the Directory and School Page sections of the ‘Rute Website Flow’ demo video.
                         </p>
                         <p id="text-content-style">
                             <div>

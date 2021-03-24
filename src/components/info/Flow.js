@@ -51,7 +51,7 @@ class FlowChart extends Component {
             </div>
             <div class="col">
                 <button  id="button-l" class="button-center-r" >
-                    <NavLink to={"/data"} id="link-no-style" >Next</NavLink>
+                    <NavLink to={"/data-collection"} id="link-no-style" >Next</NavLink>
                 </button>
             </div>
         </div>

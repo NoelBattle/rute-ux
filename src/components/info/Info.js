@@ -47,11 +47,14 @@ class Info extends Component {
                                 </div>
                             </div>
                             <p id="text-content-style">
-                            I used my interview findings to create a provisional persona, Pearl, to  better understand the needs of pre-med students  
+                            I used my interview findings to create a provisional persona, Pearl, to better understand the needs of pre-med students.
                             </p>
                             <p id="text-content-style">
-                            Pearl is a 20 year old junior with a passion for medicine and is heavily involved extra-curriculars. Pearl did well on her MCAT and has a 3.8 GPA. However, she doesn’t have many other pre-med friends, and is pretty overwhelmed by the process.                   
+                            Pearl is a 20 year old junior with a passion for medicine and is heavily involved in extracurriculars. Pearl did well on her MCAT and has a 3.8 GPA. However, she doesn’t have many other pre-med friends, and is pretty overwhelmed by the application process.
                             </p>
+                        </div>
+                        <div class="row" id="header2-text" >
+                            <div class="col">Provisional Persona</div>
                         </div>
                         <div class="row" id="info-prov-row">
                             <div class="col-md-3">
@@ -74,7 +77,7 @@ class Info extends Component {
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                    <li>Maintain balance in his life</li>
+                                    <li>Maintain balance in her life</li>
                                     <li>Meet like  minded individuals</li>
                                 </p>
                             </div>
@@ -85,9 +88,9 @@ class Info extends Component {
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                <li>A way to track important dates</li>
-                                        <li>A place to talk  with other pre-med students</li>
-                                        <li>An idea of where to apply</li>
+                                    <li>A way to track important dates</li>
+                                    <li>A place to talk  with other pre-med students</li>
+                                    <li>An idea of where to apply</li>
                                 </p>
                             </div>
                             <div class="col-md-3">
@@ -97,14 +100,14 @@ class Info extends Component {
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                <li>Disorganized</li>
-                                        <li>Too many different websites</li>
-                                        <li>Forums are cluttered or inactive</li>
+                                    <li>Websites are disorganized</li>
+                                    <li>Uses too many different websites</li>
+                                    <li>Forums are cluttered or inactive</li>
                                 </p>
                             </div>
                         </div>
                         <p id="text-content-style">
-                        To brainstorm features for the site, I made a How Might We (HMW) using insight I gained from research and Pearl’s provisional persona.         
+                        To brainstorm features for the site, I made a How Might We (HMW) diagram using insight I gained from research and Pearl’s provisional persona.         
                         </p>
                         <p id="text-content-style">
                             How might we help Pearl...
@@ -140,25 +143,27 @@ class Info extends Component {
                                     </div>
                                 </div>
                                 <p id="text-list-style" class="center-wid">
-                                <li>A way to Track important dates</li>
-                                    <li>Reminders/ Calendar Page</li>
+                                <li>A way to track important dates</li>
+                                    <li>Reminders/Calendar Page</li>
                                     <li>Progress Tracker</li>
                                     <li>Student Profile Log</li>
                                 </p>
                             </div>
                         </div>
                         <p id="text-content-style">
-                        After  identifying  the main features and the data structure, I mapped out the information architecture to show the hierarchy of features. This helped me  organize the type  information on each page. 
+                        After identifying the main features and the data structure, I mapped out the information architecture below to show the hierarchy of features. This helped me organize the type of information on each page.
                         </p>
                         <p id="text-content-style">
-                        In order to speed up page navigation, I  added the profile,reminders, favorites and matching algorithm sections to the Dashboard route. These sections provide a condensed view  of the information with links/buttons directing to the main features. I added these features to the Dashboard  to prevent navbar clutter and save the user time.
+                        In order to speed up page navigation, I added the profile, reminders, favorites and matching algorithm sections to the Dashboard route. These sections provide a condensed view of the information with links/buttons directing users to the main features. I added these features to the Dashboard to prevent navbar clutter and save the user time.
                         </p>
+                        <div class="row" id="header2-text" >
+                            <div class="col">Info Architecture</div>
+                        </div>
                         <div class="row">
                             <img alt="timer" id="info-arch" src={infoArch} />
                         </div>
                         <p id="text-content-style">
-                        Next I created this <NavLink to={"/user-flow"} id="" >flow chart</NavLink>, because I wanted to get an idea of the  user’s experience using the site from start  to finish.
-                        I developed a flow that allows  for an intuitive user experience.
+                        Next I created a user <NavLink to={"/user-flow"} id="" >flow chart</NavLink>, to get an idea of the user’s experience using the site from start to finish. I developed a flow that allows for an intuitive user experience.
                         </p>
                     </div>
                     <div class="col-md-1"></div>

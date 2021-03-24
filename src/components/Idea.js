@@ -27,7 +27,7 @@ class Idea extends Component {
                         </div>
                         <div class="row" id="idea-idea">
                             <div class="col" id="text-content-style">
-                                To create a comphrensive hub of med school tools and information, and get to the “rute” of med school applications.
+                                To create a comphrensive hub of med school tools and information and to get to the “rute” of med school applications.
                             </div>
                         </div>
                     </div>
@@ -45,9 +45,12 @@ class Idea extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style" id="text-wrap">
-                            2020, like for so many other recent grads, was an unmitigated DISASTER.
-                            Eventually, I knew that when it came to beefing up my UX/UI portfolio, I needed to take matters in to my own hands. 
-                            In order to do so, I needed to either improve upon an existing product, or create my own. This was around the same time two of my fraternity brothers from UCLA were accepted into medical school. While celebrating their accomplishments (on Zoom of course), they regaled me with stories of the immense struggle that is the med school application process. One thing they both took away from the experience was how disorganized and dispersed all the necessary resources are.
+                            2020, like for so many other recent grads, was an unmitigated DISASTER. Internships canceled. 
+                            Ghosted by companies left and right. Eventually, I knew that in order to beef up my UX/UI portfolio,
+                            I needed to take matters into my own hands. In order to do so, I needed to either improve upon an existing product, or create my own. 
+                            This was around the same time two of my fraternity brothers from UCLA were accepted into medical school.
+                            While celebrating their accomplishments (on Zoom of course), they regaled me with stories of their immense struggles with the med school application process. 
+                            The main things I took away from the conversation was how disorganized and incomplete current med school application websites are. 
                             </p>
                         </div>
                         <div class="row">
@@ -55,16 +58,16 @@ class Idea extends Component {
                             <div class="col-md-8">
                                 <p id="text-content-style" class="center-wid">
                                     There are different websites for: 
-                                        <li>-School data (Princeton Review, MSARS)</li>
-                                        <li>-Test/Important Dates (AAMC)</li>
-                                        <li>Forums (Student Doctor Network,Savvy Premed)</li>
+                                        <li>School data (Princeton Review, MSARS)</li>
+                                        <li>Test/Important Dates (AAMC)</li>
+                                        <li>Forums (Student Doctor Network, Savvy Premed)</li>
                                         <li>Essays planning (Google Drive, Motivate MD)</li>
                                 </p>
                             </div>
                             <div class="col-md-2"></div>
                         </div>
                         <p id="text-content-style">
-                            Keeping track of  all this info coupled with a rigorous  school curriculum, extra-curriculars, work AND a social life is a PAIN, so I sought to solve this problem.
+                            Keeping track of all this info coupled with a rigorous school curriculum, extra-curriculars, work AND a social life is a PAIN, so I sought to solve this problem.
                         </p>
                     </div>
                     <div class="col-md-1"></div>

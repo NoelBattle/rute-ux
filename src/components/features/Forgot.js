@@ -42,9 +42,7 @@ class Forgot extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            Any functional website will allow its users to change their password. Rute allows this through the edit account section. 
-                            Here users can change the name and their password. 
-                            To improve  UX, I added a password requirement filter system so users know if their password meets the correct specifications as they type. I also added a password show/hide mask button so users can check their password input.
+                            Any functional website will allow its users to change their password. Rute allows this through the edit account section. Here users can change their name and password. To improve UX, I added a password requirement filter system so users know if their password meets the correct requirements as they type. I also added a password show/hide mask button so users can check their password input.
                             </p>
                         </div>
                         <p id="text-content-style">
@@ -56,8 +54,7 @@ class Forgot extends Component {
                             </div>
                         </p>
                         <p id="text-content-style">
-                        If a user forgets their password they can change it through the forgot password section. Once they enter their email, Rute creates a token that expires in 5 minutes. That token is appended to a “change password” link sent to the user’s email address. 
-                        Once the user visits the link, they will be prompted to set a new password.
+                        If a user forgets their password they can change it through the forgot password section. Once they enter their email, Rute creates a token that expires in 5 minutes. That token is appended to a “change password” link sent to the user’s email address. Once the user visits the link, they will be prompted to set a new password.
                         </p>
                         <p id="text-content-style">
                         The video below is fast forwarded to the ‘Forgot Password’ section of the ‘Rute  Website Flow’ demo video.

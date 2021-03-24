@@ -47,7 +47,8 @@ class Calendar extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            Keeping track of important dates for multiple schools is annoying. That is why I added a calendar to Rute. The event system is incomplete (see Todo’s), but when it is finished the calendar will pull all the important dates/events stored in the database for a school and fill the calendar.  I added download functionality, so users can download the calendar ics file and import it into their own calendars if they please.
+                            Keeping track of important dates for multiple schools is annoying. That is why I added a calendar to Rute. The event system is incomplete 
+                            (see <NavLink to={"/to-do"}>To Do</NavLink>), but when it is finished the calendar will pull all the important dates/events stored in the database for a school and fill the calendar.  I added download functionality, so users can download the calendar ics file and import it into their own calendars if they please.
                             </p>
                         </div>
                         <p id="text-content-style">

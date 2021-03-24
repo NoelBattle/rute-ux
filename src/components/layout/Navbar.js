@@ -341,7 +341,7 @@ class Navbar extends Component {
 
                         <div id="sidenav-li">
                             <div class="nav-divider">
-                                <NavLink to={"/todo"} id="navhead" activeClassName="hov-active">
+                                <NavLink to={"/to-do"} id="navhead" activeClassName="hov-active">
                                     <div class="row"  id="sidenav-icon-row">
                                         <div class="col-md-3" id="sidenav-icon-col">
                                             <FontAwesomeIcon id="sidenav-icon-robot"  icon={faClipboardList} />

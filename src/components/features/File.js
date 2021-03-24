@@ -42,7 +42,7 @@ class Files extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            Another pain point I found was that keeping track of the necessary documents to apply to  medical school (resumes, transcripts, score reports,  etc.) is hard. I sought to solve this by adding a file upload feature to Rute. Users can upload and remove their files from the database anytime. 
+                            Another pain point I found was keeping track of the necessary documents to apply to medical school (resumes, transcripts, score reports, etc.) is hard. I sought to solve this by adding a file upload feature to Rute. Users can upload and remove their files from the database anytime.
                             </p>
                         </div>
                         <p id="text-content-style">

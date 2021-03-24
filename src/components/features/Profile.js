@@ -58,9 +58,7 @@ class Profile extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p id="text-content-style">
-                        Filling out medical applications is a long and arduous process. Rute tries to expedite this by allowing users to store their application info at their leisure. 
-                        After examining various schools’ applications, I broke down the required information into 11 of the sections below. Please click a button to see a demo of each form.
-                        The 'Video' button will reveal a full demo of all the 'Rute Profile Forms' style and functionality. 
+                        Filling out medical applications is a long and arduous process. Rute tries to expedite this by allowing users to store their application info at their leisure. After examining various schools’ applications, I broke down the required information into 11/12 of the sections below. Please click a button to see a demo of each form. The 'Video' button will reveal a full demo of all the 'Rute Profile Forms' style and functionality.
                         </p>
                         <div class="row">
                             <button id={(this.state.gif=="rec")?"button-l-selected":"button-l"}  onClick={() =>this.setGif("rec")}>
@@ -129,7 +127,7 @@ class Profile extends Component {
                         </p>
                         <p id="text-content-style">
                             <li>
-                                The first type (Rec Letters, Courses,  and Experiences) stores data in arrays so that there can be multiple entries.  ‘Rec Letters’ and ‘Experiences’ allow users to delete and edit previous entries from their respective profile page. However, due to the sheer amount of courses a user will enter, stored data from the ‘Courses’ page is only displayed on the overview page. Users can access the overview section from the Dashboard, or directly on the  ‘Courses’ page once a user stores a course.
+                                The first type (Rec Letters, Courses, and Experiences) stores data in arrays so that there can be multiple entries. ‘Rec Letters’ and ‘Experiences’ allow users to delete and edit previous entries from their respective profile page. However, due to the sheer amount of courses a user will enter, stored data from the ‘Courses’ page is only displayed on the Overview page. Users can access the Overview section from the Dashboard, or directly on the ‘Courses’ page once a user stores a course.
                             </li>
                         </p>
                         <p id="text-content-style">
@@ -139,10 +137,10 @@ class Profile extends Component {
                         </p>
                         <p id="text-content-style">
                             The ‘Overview’ section will display all user data 
-                            (see <Link to="/https://fontawesome.com/" target="_blank" onClick={() => window.open("https://fontawesome.com/", "_blank")} >To Do</Link>). 
-                            The ‘Overview’ section will create a docx file of the user data and allow users to upload the file to their Google Drive or download to their pc. This process is demonstrated 
-                            in the <Link to="/https://fontawesome.com/" target="_blank" onClick={() => window.open("https://fontawesome.com/", "_blank")} >Essay Planner
-                            </Link> section. 
+                            (see <NavLink to={"/to-do"}>To Do</NavLink>). 
+                            The ‘Overview’ section will create a docx file of the user's data and allow user's to upload the file to their Google Drive or download to their PC. This process is demonstrated 
+                            in the <NavLink to={"/features/essay-planner"}>Essay Planner
+                            </NavLink> section. 
                         </p>
                     </div>
                     <div class="col-md-1"></div>

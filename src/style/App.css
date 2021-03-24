@@ -45,6 +45,19 @@
   }
 }
 
+#calc-wrap-div{
+  width: 32vw;
+  height: 40vh;
+  margin-bottom: 2vw;
+  padding-right: 10px;
+  float:right;
+}
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1.5em;
+  padding-left: 0em;
+}
 .Footer{
   position: static;
   bottom:0px;

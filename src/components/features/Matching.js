@@ -42,7 +42,7 @@ class Matching extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            To help users better choose which schools they want to apply to, I coded a school matching python script. The matching algorithm calculates the mean squared error between a user’s gpa and mcat and a schools’. It also allows state selection, since the in-state data differs from the out-of-state data for the schools.  The truffle ranking system is to the right.
+                            To help users better choose which schools they want to apply to, I coded a school matching python script. The matching algorithm calculates the mean squared error between a user’s gpa and mcat and a schools’. It also allows state selection, since the in-state data differs from the out-of-state data for the schools. The schools are ranked using truffles. The truffle ranking system is to the right.
                             </p>
                         </div>
                         <p id="text-content-style">

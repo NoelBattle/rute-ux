@@ -23,7 +23,7 @@ class Todo extends Component {
                             </div>
                         </div>
                         <div class="row" id="header-text" >
-                            <div class="col">Todo</div>
+                            <div class="col">To Do</div>
                         </div>
                         <div class="row" id="idea-idea">
                             <div class="col" id="text-content-style">

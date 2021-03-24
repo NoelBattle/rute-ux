@@ -119,7 +119,7 @@ class About extends Component {
               </div>
             </div>
             <div class="row" id="next-prev-buttons">
-              <NavLink to={"/research"} id="link-no-style" class="button-center">
+              <NavLink to={"/idea"} id="link-no-style" class="button-center">
                 <button  id="button-l">
                   Next
                 </button>

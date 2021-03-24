@@ -42,20 +42,18 @@ class Me extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            I am an extremely motivated individual with passions in UX, design, coding, and storytelling. I graduated from UCLA in 2020 with a B.S. in Cognitive Science and a specialization in Computing.
+                            I am an extremely motivated individual with passions in UX, design, coding, and storytelling. I graduated from UCLA in 2020 with a B.S. in Cognitive Science with a specialization in Computing.
                             </p>
                         </div>
                 
                         <p id="text-content-style">
-                        While I  was  taking classes at UCLA, I started my coding journey enrolling in the UCLA Extension 6 month ‘Full Stack Web Development  Bootcamp’. This is where I was first introduced to the M.E.R.N stack. After my certification, I also took various C++, web development, and python courses for my major and specialization. 
+                        While I  was  taking classes at UCLA, I started my coding journey enrolling in the UCLA Extension 6 month ‘Full Stack Web Development  Bootcamp’. This is where I was first introduced to the M.E.R.N. stack. After my certification, I also took various C++, web development, and python courses for my major and specialization.
                         </p>
                         <p id="text-content-style">
                         My UX experience consists of a UX internship at LILO, a luxury pool float company, and a marketing internship at Rice Games analyzing Shujinkou, a Japanese language learning video game.
                         </p>
                         <p id="text-content-style">
-                        Using the skills I learned from these experiences, I created Rute. 
-                        I made Rute primarily to gain a comprehensive understanding of the website creation process. The goal was to optimize all the current medical school application tools and combine them into one website.
-                        The experience has allowed me the opportunity to work in many different domains outside of my comfort zone. However through my fair share of trial and error, I have gained a myriad of reproducible skills and am super excited for whichever project I embark on next.                        
+                        Using the skills I learned from these experiences, I created Rute. I made Rute primarily to gain a comprehensive understanding of the website creation process. The goal was to optimize all the current medical school application tools and combine them into one website. The experience has allowed me the opportunity to work in many different domains outside of my comfort zone. Through my fair share of trial and error, I have gained a myriad of reproducible skills that I can leverage to land a job in the future.
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -63,7 +61,7 @@ class Me extends Component {
 
                 <div class="row" id="next-prev-buttons" >
                     <div class="col">
-                    <NavLink to={"/todo"} id="link-no-style" >
+                    <NavLink to={"/to-do"} id="link-no-style" >
                         <button  id="button-l" class="button-center-l" >
                             Prev
                         </button>

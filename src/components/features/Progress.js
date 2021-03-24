@@ -67,7 +67,7 @@ class Progress extends Component {
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <div>
-                            <div id="cal-wrap-div">
+                            <div id="prog-wrap-div">
                                 <span id="res-pic">
                                     <img alt="timer"  id="prog-bar" className={((this.state.time===0)||(this.state.time===20))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog0} />

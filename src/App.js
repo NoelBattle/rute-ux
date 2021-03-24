@@ -101,7 +101,7 @@ class App extends Component {
           <Route exact path="/features/forum" component={Forum} />
           <Route exact path="/features/dark-mode" component={Darkmode} />
           <Route exact path="/technologies" component={Tech} />
-          <Route exact path="/todo" component={Todo} />
+          <Route exact path="/to-do" component={Todo} />
           <Route exact path="/about-me" component={Me} />
           <Route exact path="/timeline" component={Timeline} />
           <Switch>

@@ -44,10 +44,9 @@ class Data extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style">
-                            After examine other websites and reviewing the data I accumulated from my research interviews, I begain to formulate a list of essential medical school information. 
-                            I learned from my interviews, that a major problem students have with MSARS is the the school information is all on one page,  requiring students to scroll. 
-                            I improve upon this through the use of tabs. After I created my list, I broke this list down into 4 categories that will serve as my tabs:                    
+                            After examining other websites and reviewing the data I accumulated from my research interviews, I began to formulate a list of essential medical school information. I learned from my interviews that a major problem students have with MSARS is the school information is all on one page, requiring students to scroll. I improved upon this through the use of tabs. After I created my list, I broke the list down into 4 categories that serve as my tabs:
                             </p>
+
                         </div>
                         <div class="row">
                             <div class="col-md-2"></div>
@@ -62,10 +61,7 @@ class Data extends Component {
                             <div class="col-md-2"></div>
                         </div>
                         <p id="text-content-style">
-                        Now it was time to grind out the data collection.
-                        There was no easy way to do this. Since we were collecting from so many different websites, a data scraping plugin wasn't going to help. 
-                        So my two friends (the one's in medschool) and I manually collected  the  150 schools worth of data. 
-                        Below is a link to a sample of the data showing the information we added/plan to add.                 
+                        Now it was time to grind out the data collection. There was no easy way to do this, and it was too much work to do myself, so my two friends (the one's in med school) and I collected 150 schools worth of data. The data had to be collected manually and we couldn't use a  data scraping plugin ,because there were so many different websites. Below is a link to a sample of the data showing the information we collected/plan to add.
                         </p>
                         <p id="text-content-style">
                             <Link to="/https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0" 

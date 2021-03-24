@@ -41,7 +41,7 @@ class Research extends Component {
                                 </span>
                             </div>
                             <p id="text-content-style" id="text-wrap">
-                            Although my friends and I thought the idea was solid, I wanted to see if other people felt the same way. I interviewed 25 students (15 UCLA pre-med STEM students and 10 UCLA graduates either accepted or currently enrolled in medical schools). From the interviews, I compiled a list of common pain points for the popular med school information services.
+                            I thought the idea was solid, but I wanted to see if other people felt the same way. I interviewed 25 students (15 UCLA pre-med STEM students and 10 UCLA graduates either accepted or currently enrolled in medical schools). From the interviews, I compiled a list of common pain points for the popular med school information services.
                             </p>
                         </div>
                         
