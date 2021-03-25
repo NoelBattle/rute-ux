@@ -40,7 +40,7 @@ class Data extends Component {
                         <div>
                             <div id="data-wrap-div">
                                 <span id="idea-pic">
-                                    <img alt="timer" id="data-pig-truff" src={pigTruff} />
+                                    <img alt="pig-truffle" id="data-pig-truff" src={pigTruff} />
                                 </span>
                             </div>
                             <p id="text-content-style">

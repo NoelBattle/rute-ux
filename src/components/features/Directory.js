@@ -38,7 +38,7 @@ class Directory extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiApple} />
+                                    <img alt="apple" id="res-pc" src={uiApple} />
                                 </span>
                             </div>
                             <p id="text-content-style">

@@ -45,7 +45,7 @@ class Darkmode extends Component {
                         </p>
                         <p id="text-content-style">
                             <div>
-                                <ReactPlayer  controls={true} width="40vw" url="https://www.youtube.com/watch?v=lRZMP1PSr4Q"/>
+                                <ReactPlayer  controls={true} width="40vw" url="https://www.youtube.com/watch?v=AmMaOXUKTp0"/>
             
                             </div>
                         </p>

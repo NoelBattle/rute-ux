@@ -27,7 +27,7 @@ class Idea extends Component {
                         </div>
                         <div class="row" id="idea-idea">
                             <div class="col" id="text-content-style">
-                                To create a comphrensive hub of med school tools and information and to get to the “rute” of med school applications.
+                                To create a comprehensive hub of med school tools and information and to get to the “rute” of med school applications.
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ class Idea extends Component {
                         <div>
                             <div id="idea-wrap-div">
                                 <span id="idea-pic">
-                                    <img alt="timer" id="idea-snout" src={Snout} />
+                                    <img alt="snout" id="idea-snout" src={Snout} />
                                 </span>
                             </div>
                             <p id="text-content-style" id="text-wrap">

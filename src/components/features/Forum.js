@@ -38,7 +38,7 @@ class Forum extends Component {
                         <div>
                             <div id="idea-wrap-div">
                                 <span id="idea-pic">
-                                    <img alt="timer" id="idea-snout" src={Chat} />
+                                    <img alt="chat" id="idea-snout" src={Chat} />
                                 </span>
                             </div>
                             <p id="text-content-style">

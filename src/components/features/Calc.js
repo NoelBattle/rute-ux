@@ -38,7 +38,7 @@ class Calc extends Component {
                         <div>
                             <div id="calc-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiCalc} />
+                                    <img alt="calculator" id="res-pc" src={uiCalc} />
                                 </span>
                             </div>
                             <p id="text-content-style">

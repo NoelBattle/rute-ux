@@ -42,7 +42,7 @@ class Info extends Component {
                                 </div>
                                 <div class="row">
                                     <span id="info-pic">
-                                        <img alt="timer" id="info-pig" src={pigMask} />
+                                        <img alt="pig-mask" id="info-pig" src={pigMask} />
                                     </span>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ class Info extends Component {
                             </p>
                         </div>
                         <div class="row" id="header2-text" >
-                            <div class="col">Provisional Persona</div>
+                            <div id="header2-col">Provisional Persona</div>
                         </div>
                         <div class="row" id="info-prov-row">
                             <div class="col-md-3">
@@ -160,7 +160,7 @@ class Info extends Component {
                             <div class="col">Info Architecture</div>
                         </div>
                         <div class="row">
-                            <img alt="timer" id="info-arch" src={infoArch} />
+                            <img alt="info architecture" id="info-arch" src={infoArch} />
                         </div>
                         <p id="text-content-style">
                         Next I created a user <NavLink to={"/user-flow"} id="" >flow chart</NavLink>, to get an idea of the user’s experience using the site from start to finish. I developed a flow that allows for an intuitive user experience.

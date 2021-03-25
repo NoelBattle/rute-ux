@@ -53,7 +53,7 @@ class Tech extends Component {
                                 <p id="text-list-style" class="center-wid">
                                     <div class="row">
                                         <div class="col-md-5" id="tech-col">
-                                            <img id="tech-node" src={nodePic}/> 
+                                            <img alt="node.js" id="tech-node" src={nodePic}/> 
                                         </div>
                                         <div class="col-md-7 align-self-center">
                                             (fast and efficient)
@@ -61,7 +61,7 @@ class Tech extends Component {
                                     </div>
                                     <div class="row">
                                         <div class="col-md-2" id="tech-ex">
-                                            <img  id="tech-ex" src={expressPic} /> 
+                                            <img alt="express.js"  id="tech-ex" src={expressPic} /> 
                                         </div>
                                         <div class="col-md-3"></div>
                                         <div class="col-md-7 align-self-center">
@@ -78,7 +78,7 @@ class Tech extends Component {
                                 </div>
                                 <p id="text-list-style" class="center-wid">
                                 <div class="row">
-                                    <div class="col-md-12" id="tech-col"><img  id="tech-mongo" src={mongoPic} /> </div>
+                                    <div class="col-md-12" id="tech-col"><img alt="mongo" id="tech-mongo" src={mongoPic} /> </div>
                                     </div>
                                     <div class="row">
                                     <div class="col-md-12" id="tech-col">(scalable and powerful) </div>
@@ -94,7 +94,7 @@ class Tech extends Component {
                                 </div>
                                 <p id="text-list-style" class="center-wid">
                                 <div class="row">
-                                    <div class="col-md-12" id="tech-col"><img  id="tech-react" src={reactPic} /> </div>
+                                    <div class="col-md-12" id="tech-col"><img alt="react" id="tech-react" src={reactPic} /> </div>
                                     </div>
                                     <div class="row">
                                     <div class="col-md-12" id="tech-col">(SEO friendly and powerful) </div>
@@ -114,7 +114,7 @@ class Tech extends Component {
                                     <p id="text-list-style" class="center-wid">
                                         <div class="row">
                                             <div class="col-md-4" >
-                                                <img  id="tech-node" src={passportPic}/> 
+                                                <img  id="tech-node" alt="passport" src={passportPic}/> 
                                             </div>
                                             <div class="col-md-8 align-self-center">
                                                 (flexible and modular)
@@ -122,7 +122,7 @@ class Tech extends Component {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-2">
-                                                <img  id="tech-jwt" src={JWTPic}/> 
+                                                <img alt="json web token"  id="tech-jwt" src={JWTPic}/> 
                                             </div>
                                             <div class="col-md-2"></div>
                                             <div class="col-md-8 align-self-center">
@@ -131,7 +131,7 @@ class Tech extends Component {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-4" id="tech-ex">
-                                                <img id="tech-node" src={reduxPic}/> 
+                                                <img alt="redux" id="tech-node" src={reduxPic}/> 
                                             </div>
                                             <div class="col-md-8 align-self-center">
                                                 (powerful state manager)
@@ -149,7 +149,7 @@ class Tech extends Component {
                                 <p id="text-list-style" class="center-wid">
                                     <div class="row">
                                         <div class="col-md-12" id="tech-col">
-                                            <img  id="tech-mongo" src={nodeBBPic} /> 
+                                            <img alt="nodebb"  id="tech-mongo" src={nodeBBPic} /> 
                                         </div>
                                     </div>
                                     <div class="row">

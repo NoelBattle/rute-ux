@@ -38,7 +38,7 @@ class Favorites extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiHeart} />
+                                    <img alt="favorite-pressed" id="res-pc" src={uiHeart} />
                                 </span>
                             </div>
                             <p id="text-content-style">

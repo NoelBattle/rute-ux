@@ -137,30 +137,30 @@ class UI extends Component {
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-6">
                                 <span id="ui-pigs">
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
+                                    <img alt="pig open"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigOpen} />
                                     
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
+                                    <img alt="pig closed"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigClosed} />
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
+                                    <img alt="pig mask"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigMask} />
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===4?'animate-vis':'animate-hide'}
+                                    <img alt="pig closed"  id="about-header-pig" className={this.state.time===4?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigClosed} />
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===5?'animate-vis':'animate-hide'}
+                                    <img alt="pig doctor"  id="about-header-pig" className={this.state.time===5?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigDr} />
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===6?'animate-vis':'animate-hide'}
+                                    <img alt="pig closed"  id="about-header-pig" className={this.state.time===6?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigClosed} />
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===7?'animate-vis':'animate-hide'}
+                                    <img alt="pig sily"  id="about-header-pig" className={this.state.time===7?'animate-vis':'animate-hide'}
                                             style={{zIndex:"8",}} src={pigFun} />
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===8?'animate-vis':'animate-hide'}
+                                    <img alt="pig closed"  id="about-header-pig" className={this.state.time===8?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={pigClosed} />
                                 </span>
                             </div>
                             <div class="col-md-6">
-                                <img  id="ui-pearl-pig" src={Pearl} />
+                                <img alt="pig real"  id="ui-pearl-pig" src={Pearl} />
                             </div>
                         </div>
                         <p id="text-content-style">
@@ -169,29 +169,29 @@ class UI extends Component {
                         <div class="row" id="ui-pic-row">
                             <div class="col" id="ui-truff">
                                 <span>
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
+                                    <img alt="red truffle"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={redT}/>
                                     
                                     
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
+                                    <img alt="black truffle"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={blackT}/>
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
+                                    <img alt="blue truffle"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={blueT}/>
-                                    
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===4?'animate-vis':'animate-hide'}
+                                    <img alt="green truffle"  id="about-header-pig" className={this.state.time===4?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={greenT}/>
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===5?'animate-vis':'animate-hide'}
+
+                                    <img alt="yellow truffle"  id="about-header-pig" className={this.state.time===5?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={yellowT}/>
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===6?'animate-vis':'animate-hide'}
+                                    <img alt="red truffle"  id="about-header-pig" className={this.state.time===6?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={redT}/>
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===7?'animate-vis':'animate-hide'}
+                                    <img alt="black truffle"  id="about-header-pig" className={this.state.time===7?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={blackT}/>
 
-                                    <img alt="timer"  id="about-header-pig" className={this.state.time===8?'animate-vis':'animate-hide'}
+                                    <img alt="blue truffle"  id="about-header-pig" className={this.state.time===8?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={blueT}/>
                                 </span>
                             </div>
@@ -202,7 +202,7 @@ class UI extends Component {
                         <div class="row" id="ui-pic-row">
                             <div class="col" id="ui-truff">
                                 <span>
-                                    <img alt="timer"  id="ui-colors" style={{zIndex:"8",}} src={Color} />
+                                    <img alt="color swatch"  id="ui-colors" style={{zIndex:"8",}} src={Color} />
                                 </span>
                             </div>
                                 <div id={(this.state.darkmode)=="yes"?"ui-rounded-container-d":"no"?"ui-rounded-container-l":""}>

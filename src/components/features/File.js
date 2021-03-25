@@ -38,7 +38,7 @@ class Files extends Component {
                         <div>
                             <div id="res-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiDoc} />
+                                    <img alt="document" id="res-pc" src={uiDoc} />
                                 </span>
                             </div>
                             <p id="text-content-style">

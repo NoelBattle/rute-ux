@@ -38,7 +38,7 @@ class Matching extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiRank} />
+                                    <img alt="rank" id="res-pc" src={uiRank} />
                                 </span>
                             </div>
                             <p id="text-content-style">

@@ -63,68 +63,68 @@ class Wireframe extends Component {
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Home</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={about1} />
+                                <img alt="about 1" id="wireframe-dir" src={about1} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Top Nav Search</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={topSearch} />
+                                <img alt="top search"  id="wireframe-dir" src={topSearch} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Profile Circle</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Circ} />
+                                <img alt="top circle" id="wireframe-dir" src={Circ} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Edit Account</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Edit} />
+                                <img alt="edit account" id="wireframe-dir" src={Edit} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Directory</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dir} />
+                                <img alt="directory" id="wireframe-dir" src={Dir} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">School: About</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={aboutSchool} />
+                                <img alt="school about" id="wireframe-dir" src={aboutSchool} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Admissions</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={adSchool} />
+                                <img alt="school admissions" id="wireframe-dir" src={adSchool} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Academics</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={acadSchool} />
+                                <img alt="school acadmeics" id="wireframe-dir" src={acadSchool} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">School: Financial</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={finSchool} />
+                                <img alt="school financial" id="wireframe-dir" src={finSchool} />
                             </div>
                         </div>
                         
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Profile</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Profile} />
+                                <img alt="profile"  id="wireframe-dir" src={Profile} />
                             </div>
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Dashboard</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Dash} />
+                                <img alt="dashbboard"  id="wireframe-dir" src={Dash} />
                             </div>
                         </div>
                         
@@ -132,7 +132,7 @@ class Wireframe extends Component {
                         <div class="row" id="ui-pic-row">
                             <div class="col-md-2 align-self-center"><span id="wireframe-label">Essays</span></div>
                             <div class="col-md-10">
-                                <img  id="wireframe-dir" src={Essays} />
+                                <img alt="essays" id="wireframe-dir" src={Essays} />
                             </div>
                         </div>
                         <p id="text-content-style">

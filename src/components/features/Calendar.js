@@ -43,7 +43,7 @@ class Calendar extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiCal} />
+                                    <img alt="calendar" id="res-pc" src={uiCal} />
                                 </span>
                             </div>
                             <p id="text-content-style">

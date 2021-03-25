@@ -12,8 +12,8 @@ function Footer() {
                 <div  class="col-md-3">
                     <ul>
                         <Link id="link-black" class="bold"
-                            to="/https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0" 
-                            target="_blank" onClick={() => window.open("https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0", "_blank")} >
+                            to="/https://github.com/NoelBattle/rute-ux" 
+                            target="_blank" onClick={() => window.open("https://github.com/NoelBattle/rute-ux", "_blank")} >
                             Github for this website
                         </Link>
                     </ul>

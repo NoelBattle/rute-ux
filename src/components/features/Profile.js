@@ -100,17 +100,17 @@ class Profile extends Component {
                         </div>
                         <div class="row" id="ui-pic-row">
                             <div class="col" id="ui-truff">
-                                {(this.state.gif)=="rec" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Rec} /></div>}   
-                                {(this.state.gif)=="co" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Co} /></div>}
-                                {(this.state.gif)=="exp" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Exp} /></div>}
-                                {(this.state.gif)=="fin" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Fin} /></div>}
-                                {(this.state.gif)=="edu" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Edu} /></div>}
-                                {(this.state.gif)=="sco" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Sco} /></div>}
-                                {(this.state.gif)=="pref" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Pref} /></div>}
-                                {(this.state.gif)=="res" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Res} /></div>}
-                                {(this.state.gif)=="fam" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Fam} /></div>}
-                                {(this.state.gif)=="race" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Race} /></div>}
-                                {(this.state.gif)=="misc" && <div><img alt="timer"  id="prof-gif" style={{zIndex:"8",}} src={Misc} /></div>}
+                                {(this.state.gif)=="rec" && <div><img alt="rec letters"  id="prof-gif" style={{zIndex:"8",}} src={Rec} /></div>}   
+                                {(this.state.gif)=="co" && <div><img alt="courses"  id="prof-gif" style={{zIndex:"8",}} src={Co} /></div>}
+                                {(this.state.gif)=="exp" && <div><img alt="experience"  id="prof-gif" style={{zIndex:"8",}} src={Exp} /></div>}
+                                {(this.state.gif)=="fin" && <div><img alt="financial"  id="prof-gif" style={{zIndex:"8",}} src={Fin} /></div>}
+                                {(this.state.gif)=="edu" && <div><img alt="education"  id="prof-gif" style={{zIndex:"8",}} src={Edu} /></div>}
+                                {(this.state.gif)=="sco" && <div><img alt="scores"  id="prof-gif" style={{zIndex:"8",}} src={Sco} /></div>}
+                                {(this.state.gif)=="pref" && <div><img alt="preferences"  id="prof-gif" style={{zIndex:"8",}} src={Pref} /></div>}
+                                {(this.state.gif)=="res" && <div><img alt="residential"  id="prof-gif" style={{zIndex:"8",}} src={Res} /></div>}
+                                {(this.state.gif)=="fam" && <div><img alt="family"  id="prof-gif" style={{zIndex:"8",}} src={Fam} /></div>}
+                                {(this.state.gif)=="race" && <div><img alt="race"  id="prof-gif" style={{zIndex:"8",}} src={Race} /></div>}
+                                {(this.state.gif)=="misc" && <div><img alt="misc"  id="prof-gif" style={{zIndex:"8",}} src={Misc} /></div>}
                                 {(this.state.gif)=="vid" && 
                                     <div>
                                         <p id="text-content-style">

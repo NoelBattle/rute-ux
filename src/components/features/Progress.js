@@ -69,27 +69,27 @@ class Progress extends Component {
                         <div>
                             <div id="prog-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===0)||(this.state.time===20))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 0"  id="prog-bar" className={((this.state.time===0)||(this.state.time===20))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog0} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===1)||(this.state.time===19))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 10"  id="prog-bar" className={((this.state.time===1)||(this.state.time===19))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog1} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===2)||(this.state.time===18))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 20"  id="prog-bar" className={((this.state.time===2)||(this.state.time===18))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog2} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===3)||(this.state.time===17))?'animate-vis':'animate-hide'}
+                                    <img alt="tprog line 30"  id="prog-bar" className={((this.state.time===3)||(this.state.time===17))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog3} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===4)||(this.state.time===16))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 40"  id="prog-bar" className={((this.state.time===4)||(this.state.time===16))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog4} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===5)||(this.state.time===15))?'animate-vis':'animate-hide'}
+                                    <img alt="tprog line 50"  id="prog-bar" className={((this.state.time===5)||(this.state.time===15))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog5} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===6)||(this.state.time===14))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 60"  id="prog-bar" className={((this.state.time===6)||(this.state.time===14))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog6} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===7)||(this.state.time===13))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 70"  id="prog-bar" className={((this.state.time===7)||(this.state.time===13))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog7} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===8)||(this.state.time===12))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 80"  id="prog-bar" className={((this.state.time===8)||(this.state.time===12))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog8} />
-                                    <img alt="timer"  id="prog-bar" className={((this.state.time===9)||(this.state.time===11))?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 90"  id="prog-bar" className={((this.state.time===9)||(this.state.time===11))?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog9} />
-                                    <img alt="timer"  id="prog-bar" className={(this.state.time===10)?'animate-vis':'animate-hide'}
+                                    <img alt="prog line 100"  id="prog-bar" className={(this.state.time===10)?'animate-vis':'animate-hide'}
                                     style={{zIndex:"8",}} src={prog10} />
                                 </span>
                             </div>

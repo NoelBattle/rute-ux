@@ -37,7 +37,7 @@ class Research extends Component {
                         <div>
                             <div id="res-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={pcTruff} />
+                                    <img alt="research image" id="res-pc" src={pcTruff} />
                                 </span>
                             </div>
                             <p id="text-content-style" id="text-wrap">
@@ -50,55 +50,54 @@ class Research extends Component {
                 </div>
               
                 <div class="row" id="info-prov-row">
-                            <div class="col-md-3">
-                                <div  class="row" id="res-prov-header">
-                                    <div class="col">
-                                        <span id="text-content-style"> MSARS </span>
-                                    </div>
-                                </div>
-                                <p id="text-list-style" class="center-wid">
-                                    <li>Important Info behind paywall.</li>
-                                    <li>Information page is long and cluttered</li>
-                                </p>
-                            </div>
-                            <div class="col-md-3">
-                                <div  class="row" id="res-prov-header">
-                                    <div class="col">
-                                        <span id="text-content-style">Princeton Review</span>
-                                    </div>
-                                </div>
-                                <p id="text-list-style" class="center-wid">
-                                    <li>Not enough meaningful info</li>
-                                    <li>Info is outdated or wrong</li>
-                                </p>
-                            </div>
-                            <div class="col-md-3">
-                                <div  class="row" id="res-prov-header">
-                                    <div class="col">
-                                        <span id="text-content-style"> MSARS </span>
-                                    </div>
-                                </div>
-                                <p id="text-list-style" class="center-wid">
-                                <li>Forum is cluttered</li>
-                                        <li>Toxic/unhelpful community</li>
-                                </p>
-                            </div>
-                            <div class="col-md-3">
-                                <div  class="row" id="res-prov-header">
-                                    <div class="col">
-                                        <span id="text-content-style">Student Doctor Network:</span>
-                                    </div>
-                                </div>
-                                <p id="text-list-style" class="center-wid">
-                                <li>Website is unappealing</li>
-                                    <li>Too much uncessary data</li>
-                                </p>
+                    <div class="col-md-3">
+                        <div  class="row" id="res-prov-header">
+                            <div class="col">
+                                <span id="text-content-style"> MSARS </span>
                             </div>
                         </div>
-                      
-                        <p id="text-content-style">
-                        Once I had identified the pain points for med school applicants, I was ready to start constructing the flow.                 
+                        <p id="text-list-style" class="center-wid">
+                            <li>Important info behind paywall</li>
+                            <li>Info page is long and cluttered</li>
                         </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div  class="row" id="res-prov-header">
+                            <div class="col">
+                                <span id="text-content-style">Princeton Review</span>
+                            </div>
+                        </div>
+                        <p id="text-list-style" class="center-wid">
+                            <li>Not enough meaningful info</li>
+                            <li>Info is outdated or wrong</li>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div  class="row" id="res-prov-header">
+                            <div class="col">
+                                <span id="text-content-style"> MSARS </span>
+                            </div>
+                        </div>
+                        <p id="text-list-style" class="center-wid">
+                            <li>Forum is cluttered</li>
+                            <li>Toxic/unhelpful community</li>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div  class="row" id="res-prov-header">
+                            <div class="col">
+                                <span id="text-content-style">Student Doctor Network</span>
+                            </div>
+                        </div>
+                        <p id="text-list-style" class="center-wid">
+                            <li>Website is unappealing</li>
+                            <li>Too much uncessary data</li>
+                        </p>
+                    </div>
+                </div>
+                <p id="text-content-style">
+                Once I identified the pain points for med school applicants, I was ready to start constructing the flow.                        
+                </p>
                 
 
                 <div class="row" id="next-prev-buttons" >

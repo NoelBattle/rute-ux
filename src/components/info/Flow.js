@@ -22,7 +22,7 @@ class FlowChart extends Component {
                 </div>
                 <div class="row" id="header-text" >
                     <div class="col">User Flow</div>
-                </div>=
+                </div>
             </div>
             <div class="row" id="idea-idea"></div>
         </div>
@@ -40,7 +40,7 @@ class FlowChart extends Component {
     
         <div class="row" id="info-chart-div">
             <span>
-                <img alt="timer" id="info-flow-pic" src={Flow} />
+                <img alt="flow diagram" id="info-flow-pic" src={Flow} />
             </span>
         </div>
         <div class="row" id="next-prev-buttons">

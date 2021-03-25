@@ -4,7 +4,9 @@ import {withRouter} from "react-router-dom"
 import '../../style/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn, faLightbulb, faRobot, faCogs, faStar, faCaretDown, faCaretUp, faPaintBrush,faPoll,faDatabase, faSitemap, faClipboardList, faUser, faSkull, faClock, faBrain } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import  logo from './../../imgs/snute.png'
+
 
 class Navbar extends Component {
     constructor(props) {
@@ -106,7 +108,7 @@ class Navbar extends Component {
                 <Link to="/"  style={{fontFamily: "monospace"}} id="snogo" style={{zIndex:"15"}} class="logo-bg">
                     <div id="snogo-sidenav" >
                         <div class="logo-pic" >
-                            <img  id="snute"  class={(this.state.darkmode)=="yes"?"logo-bg-d":"no"?"logo-bg-l":""}  src={logo}/>
+                            <img  id="snute" alt="snout"  class={(this.state.darkmode)=="yes"?"logo-bg-d":"no"?"logo-bg-l":""}  src={logo}/>
                         </div>
                         <div id={(this.state.darkmode)=="yes"?"logo-name-col-d":"no"?"logo-name-col":""} ><span id="logo-colon">:</span><span>UX</span></div>
                     </div>
@@ -124,7 +126,7 @@ class Navbar extends Component {
                     <NavLink exact path to="/"  style={{fontFamily: "monospace"}} id="navhead" activeClassName="hov-active">
                         <div id="snogo-sidenav">
                             <div class="logo-pic" >
-                                <img  id="snute" src={logo} />
+                                <img alt="snout" id="snute" src={logo} />
                             </div>
                             <div id="logo-name">
                                 <span id="logo-colon">:</span><span>UX</span>
@@ -380,6 +382,22 @@ class Navbar extends Component {
                                         </div>
                                     </div>
                                 </NavLink>
+                            </div>
+                        </div>
+                        <div id="sidenav-li">
+                            <div  class="nav-divider">
+                                <Link 
+                                to="/https://github.com/NoelBattle/rute-ui.git" 
+                                target="_blank" onClick={() => window.open("https://github.com/NoelBattle/rute-ux", "_blank")}>
+                                    <div class="row" id="sidenav-icon-row">
+                                        <div class="col-md-3" id="sidenav-icon-col">
+                                            <FontAwesomeIcon id="sidenav-icon"  icon={faGithub}/>
+                                        </div>
+                                        <div class="col-md-9" id="sidenav-link-col">
+                                            <span id="sidenav-link">Github</span>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </ul>

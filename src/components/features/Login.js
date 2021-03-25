@@ -43,7 +43,7 @@ class Login extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={uiPig} />
+                                    <img alt="pig" id="res-pc" src={uiPig} />
                                 </span>
                             </div>
                             <p id="text-content-style">

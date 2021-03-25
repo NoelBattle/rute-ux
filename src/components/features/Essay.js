@@ -39,7 +39,7 @@ class Essay extends Component {
                         <div>
                             <div id="res-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="res-pc" src={notesIcon} />
+                                    <img alt="notes" id="res-pc" src={notesIcon} />
                                 </span>
                             </div>
                             <p id="text-content-style">

@@ -38,7 +38,7 @@ class Me extends Component {
                         <div>
                             <div id="cal-wrap-div">
                                 <span id="res-pic">
-                                    <img alt="timer" id="me-pic" src={uiMe} />
+                                    <img alt="creator picture" id="me-pic" src={uiMe} />
                                 </span>
                             </div>
                             <p id="text-content-style">

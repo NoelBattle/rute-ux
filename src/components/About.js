@@ -59,11 +59,11 @@ class About extends Component {
           <div id="comp-div">
             <div class="row" id="about-header">
               <div class="col-md-6" >
-                <img alt="timer"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
+                <img alt="pig open"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
                 style={{zIndex:"8",}} src={pigOpen} />
-                <img alt="timer"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
+                <img alt="pig-open"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
                 style={{zIndex:"8",}} src={pigOpen} />
-                <img alt="timer"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
+                <img alt="pig-closed"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
                 style={{zIndex:"8",}} src={pigClosed} />
               </div>
               <div class="col-md-6" id="about-header-tex" >
