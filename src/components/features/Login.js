@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import ReactPlayer from "react-player"
-import '../../style/features/Matching.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorOpen } from '@fortawesome/free-solid-svg-icons'
-
 import uiPig from '../../imgs/ui/mask-pig.png'
-
 import essayGif from '../../imgs/gifs/essay.gif'
 import notesIcon from '../../imgs/ui/essay-icon.png'
 

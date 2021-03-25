@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../style/Timeline.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../style/Timeline.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import  timePic from './../imgs/timeline/timeline.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 class Timeline extends Component {
 

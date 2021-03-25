@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../../style/features/Profile.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../../style/features/Profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserEdit } from '@fortawesome/free-solid-svg-icons'
 import ReactPlayer from "react-player"
@@ -15,7 +15,7 @@ import Res from '../../imgs/gifs/rute-profile-res.gif'
 import Fam from '../../imgs/gifs/rute-profile-fam.gif'
 import Race from '../../imgs/gifs/rute-profile-lang.gif'
 import Misc from '../../imgs/gifs/rute-profile-misc.gif'
-import Footer from "./../layout/Footer";
+import Footer from "./../layout/Footer"
 
 class Profile extends Component {
     constructor(props) {

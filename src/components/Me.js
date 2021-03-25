@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
 import ReactPlayer from "react-player"
-import '../style/Me.css';
+import '../style/Me.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeartbeat, faBrain } from '@fortawesome/free-solid-svg-icons'
 import uiMe from '../imgs/about/me.JPG'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 class Me extends Component {
     componentDidMount() {

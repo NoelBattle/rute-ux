@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../style/UI.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faPaintBrush, faArrowDown } from '@fortawesome/free-solid-svg-icons'
-
 import  Snout from './../imgs/idea/snout.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 import pigOpen from './../imgs/ui/pig-open.png'
 import pigClosed from './../imgs/ui/pig-closed.png'
 import pigDr from './../imgs/ui/pig-dr.png'
@@ -235,7 +234,6 @@ class UI extends Component {
                             </Link> to create charts/diagrams.
                         </p>
                         <p id="text-content-style">
-                        
                             For a full gallery of UI I created, please visit my other <Link 
                                 to="/https://rute-ui.herokuapp.com/" 
                                 target="_blank" onClick={() => window.open("https://rute-ui.herokuapp.com/", "_blank")} >

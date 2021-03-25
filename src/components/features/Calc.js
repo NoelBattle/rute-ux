@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import ReactPlayer from "react-player"
-import '../../style/features/Profile.css';
+import '../../style/features/Profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import uiCalc from '../../imgs/ui/calc.png'
-import Footer from "./../layout/Footer";
+import Footer from "./../layout/Footer"
 
 class Calc extends Component {
     componentDidMount() {

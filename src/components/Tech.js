@@ -12,7 +12,7 @@ import  nodeBBPic from './../imgs/tech/nodebb.png'
 import  passportPic from './../imgs/tech/passport.png'
 import  reactPic from './../imgs/tech/react.png'
 import  reduxPic from './../imgs/tech/redux.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 
 class Tech extends Component {

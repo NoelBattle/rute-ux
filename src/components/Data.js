@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../style/Data.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPoll } from '@fortawesome/free-solid-svg-icons'
-import  Flow from '../imgs/info/ux-flow.png'
-import  pigTruff from './../imgs/data/pig-truff.png'
-import Footer from "./layout/Footer";
+import Flow from '../imgs/info/ux-flow.png'
+import pigTruff from './../imgs/data/pig-truff.png'
+import Footer from "./layout/Footer"
 
 class Data extends Component {
     componentDidMount() {

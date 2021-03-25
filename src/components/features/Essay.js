@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../../style/features/Profile.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../../style/features/Profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import ReactPlayer from "react-player"
 import essayGif from '../../imgs/gifs/essay.gif'
 import notesIcon from '../../imgs/ui/essay-icon.png'
-import Footer from "./../layout/Footer";
+import Footer from "./../layout/Footer"
 
 class Essay extends Component {
     componentDidMount() {

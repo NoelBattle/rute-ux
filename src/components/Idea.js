@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../style/Idea.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn,faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
-import  Snout from './../imgs/idea/snout.png'
-import Footer from "./layout/Footer";
+import Snout from './../imgs/idea/snout.png'
+import Footer from "./layout/Footer"
 
 class Idea extends Component {
     componentDidMount() {

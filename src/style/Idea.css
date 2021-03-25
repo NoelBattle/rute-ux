@@ -16,6 +16,7 @@
 #idea-pic{
     display: inline-block;
 }
+
 #idea-idea{
     border: solid 2px #333333;
     border-radius: 2em;
@@ -23,21 +24,21 @@
     text-align: center;
     
 }
+
 #idea-snout{
    width: 20vw;
    position: relative;
    padding-left: 2vw;
-   
 }
+
 #idea-space{
     height: 21vw;
 }
+
 #idea-bottom-space{
-    /*
-    height: 15vw;
-    */
     height:20%;
 }
+
 @media only screen and (max-width: 814px) {
     #idea-bottom-space{
         height:30%;

@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../style/Tech.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../style/Tech.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClipboardList } from '@fortawesome/free-solid-svg-icons'
-
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 
 class Todo extends Component {

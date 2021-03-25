@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../../style/features/Forum.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../../style/features/Forum.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComments } from '@fortawesome/free-solid-svg-icons'
 import  Chat from '../../imgs/features/snout-chat.png'
 import  Nginx from '../../imgs/features/nginx_flow.png'
 import  Cookie from '../../imgs/features/cookie_flow.png'
-import Footer from "../layout/Footer";
+import Footer from "../layout/Footer"
 class Forum extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)

@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import ReactPlayer from "react-player"
-import '../../style/features/Calendar.css';
+import '../../style/features/Calendar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserEdit, faPencilAlt, faDollarSign, faUpload, faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
-
 import uiCal from '../../imgs/ui/calendar.png'
-
 import essayGif from '../../imgs/gifs/essay.gif'
 import notesIcon from '../../imgs/ui/essay-icon.png'
-
-import Footer from "./../layout/Footer";
+import Footer from "./../layout/Footer"
 
 class Calendar extends Component {
     componentDidMount() {

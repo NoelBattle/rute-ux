@@ -1,25 +1,18 @@
-import React, { Component } from "react";
-import logo from './logo.svg';
-import './style/App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-//sudo npm install bootstrap --save 
-
-import { Router as Router, Route, Switch, Link,withRouter } from "react-router-dom";
+import React, { Component } from "react"
+import logo from './logo.svg'
+import './style/App.css'
+import "bootstrap/dist/css/bootstrap.min.css" //sudo npm install bootstrap --save
+import { Router as Router, Route, Switch, Link,withRouter } from "react-router-dom"
 import { BrowserRouter } from 'react-router-dom' 
-
 import Navbar from "./components/layout/Navbar"
 import About from "./components/About"
 import Idea from "./components/Idea"
 import Research from "./components/Research"
 import Info from "./components/info/Info"
 import FlowChart from "./components/info/Flow"
-
-
 import Data from "./components/Data"
 import UI from "./components/UI"
-
 import Wireframe from "./components/Wireframe"
-
 import Dir from "./components/features/Directory"
 import Login from "./components/features/Login"
 import Favorites from "./components/features/Favorites"
@@ -33,16 +26,11 @@ import Files from "./components/features/File"
 import Calendar from "./components/features/Calendar"
 import Forgot from "./components/features/Forgot"
 import Darkmode from "./components/features/Darkmode"
-
 import Footer from "./components/layout/Footer"
-import Tech from "./components/Tech";
-
+import Tech from "./components/Tech"
 import Todo from "./components/Todo"
 import Me from "./components/Me"
 import Timeline from "./components/Timeline"
-
-import Gallery from "./components/Gallery"
-import Misc from "./components/gallery/Misc"
 
 
 class App extends Component {
@@ -80,7 +68,6 @@ class App extends Component {
       <BrowserRouter> 
         <Navbar  parentCallbackNav={this.callbackFunctionNav} dark={(((this.state.dark)=="yes") ? 'yes' : 'no')}/> 
         <div   id={(this.state.navCol==false)?"apa":"apa-full"}>
-          <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/idea" component={Idea} />
           <Route exact path="/research" component={Research} />
           <Route exact path="/info-architecture" component={Info} />

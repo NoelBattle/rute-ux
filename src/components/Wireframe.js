@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../style/Wireframe.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../style/Wireframe.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSkull } from '@fortawesome/free-solid-svg-icons'
 import  Dir from './../imgs/wireframe/Directory.png'
@@ -19,7 +19,7 @@ import  acadSchool from './../imgs/wireframe/School-academics.png'
 import  adSchool from './../imgs/wireframe/School-admission.png'
 import  finSchool from './../imgs/wireframe/School-Financial.png'
 import  topSearch from './../imgs/wireframe/top-nav-search.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 class Wireframe extends Component {
     componentDidMount() {

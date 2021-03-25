@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../style/About.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn } from '@fortawesome/free-solid-svg-icons'
-import  logo from './../imgs/snute.png'
+import logo from './../imgs/snute.png'
 import pigOpen from './../imgs/about/pig-open.png'
 import pigClosed from './../imgs/about/pig-closed.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 import ReactPlayer from "react-player"
 
 class About extends Component {

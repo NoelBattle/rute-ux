@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../../style/Info.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../../style/Info.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignOutAlt, faEdit, faCircle, faBars,faTachometerAlt,faUserGraduate,faSearch,faPencilAlt,faComments,faToggleOff,faToggleOn,faPoll,faSitemap } from '@fortawesome/free-solid-svg-icons'
 import  Flow from '../../imgs/info/ux-flow.png'
-import Footer from "../layout/Footer";
+import Footer from "../layout/Footer"
 
 class FlowChart extends Component {
     componentDidMount() {

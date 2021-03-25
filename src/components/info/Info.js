@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../../style/Info.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSitemap } from '@fortawesome/free-solid-svg-icons'
 import  pigMask from '../../imgs/info/pig-mask.png'
 import  infoArch from '../../imgs/info/info-arch.png'
-import Footer from "../layout/Footer";
+import Footer from "../layout/Footer"
 
 class Info extends Component {
     componentDidMount() {

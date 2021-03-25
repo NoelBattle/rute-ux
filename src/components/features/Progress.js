@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import ReactPlayer from "react-player"
-import '../../style/features/Progress.css';
+import '../../style/features/Progress.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserEdit, faPencilAlt, faDollarSign, faUpload, faCalendarAlt, faTasks } from '@fortawesome/free-solid-svg-icons'
 import prog0 from '../../imgs/ui/progress/progress-bar0.png'
@@ -15,7 +15,7 @@ import prog7 from '../../imgs/ui/progress/progress-bar70.png'
 import prog8 from '../../imgs/ui/progress/progress-bar80.png'
 import prog9 from '../../imgs/ui/progress/progress-bar90.png'
 import prog10 from '../../imgs/ui/progress/progress-bar100.png'
-import Footer from "./../layout/Footer";
+import Footer from "./../layout/Footer"
 
 class Progress extends Component {
     constructor(props) {

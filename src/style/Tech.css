@@ -9,21 +9,23 @@
 #tech-node{
     height:5vw;
 }
+
 #tech-jwt{
     height:4vw;
 }
+
 #tech-mongo{
     height:3.5vw;
     position: relative;
-   
 }
+
 #tech-react{
     height:9vw;
 }
+
 #tech-ex{
     height:4vw;
    position: relative;
    right:1vw;
-   
    text-align: center;
 }

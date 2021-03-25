@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
-import '../style/Research.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
+import '../style/Research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPoll } from '@fortawesome/free-solid-svg-icons'
 import  pcTruff from './../imgs/research/pc-truff.png'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 class Research extends Component {
     componentDidMount() {
