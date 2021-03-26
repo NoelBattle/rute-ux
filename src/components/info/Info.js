@@ -54,7 +54,7 @@ class Info extends Component {
                             </p>
                         </div>
                         <div class="row" id="header2-text" >
-                            <div id="header2-col">Provisional Persona</div>
+                            <div id="header2-col">Provisional Persona:</div>
                         </div>
                         <div class="row" id="info-prov-row">
                             <div class="col-md-3">
