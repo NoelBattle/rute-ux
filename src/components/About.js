@@ -108,8 +108,8 @@ class About extends Component {
                   : 9 Months
                   </p>
                   <p id="text-content-style" class="center-wid">
-                      <Link to="/https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0" 
-                        target="_blank" onClick={() => window.open("https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0", "_blank")}>
+                      <Link to="/https://github.com/NoelBattle/rute-ux" 
+                        target="_blank" onClick={() => window.open("https://github.com/NoelBattle/rute-ux", "_blank")}>
                         Github for this Case Study
                       </Link>
                   </p>
