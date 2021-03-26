@@ -49,8 +49,8 @@ class App extends Component {
 
   callbackFunctionDark = async(data) => {
     if(data){
-    this.setDark(data)
-    return data
+      this.setDark(data)
+      return data
     }
   }
 
