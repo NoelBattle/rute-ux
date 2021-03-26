@@ -117,7 +117,7 @@ class UI extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faPaintBrush} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">UI</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -215,28 +215,28 @@ class UI extends Component {
                                 
                                     {(this.state.darkmode)=="yes" && <button id="button-d"  style={{zIndex:""}} onClick={() =>this.changeDark("no")}>
                                         <span>dark</span></button>}
-                                    {(this.state.darkmode)=="no" && <button id="button-l" style={{zIndex:""}}  onClick={() =>this.changeDark("yes")}    >
+                                    {(this.state.darkmode)=="no" && <button id="button-l" style={{zIndex:""}}  onClick={() =>this.changeDark("yes")}   >
                                         <span>light</span></button>}     
                                 </div>
                         </div>
                         <p id="text-content-style">
                             I used <Link 
                                 to="/https://fontawesome.com/" 
-                                target="_blank" onClick={() => window.open("https://fontawesome.com/", "_blank")} >
+                                target="_blank" onClick={() => window.open("https://fontawesome.com/", "_blank")}>
                                 Font Awesome
                             </Link> for the navbar and header icons on Rute and this website,  .
                         </p>
                         <p id="text-content-style">
                             I used Adobe XD to create wireframes, Adobe Photoshop to design images, and <Link 
                                 to="/https://www.lucidchart.com/pages/landing" 
-                                target="_blank" onClick={() => window.open("https://www.lucidchart.com/pages/landing", "_blank")} >
+                                target="_blank" onClick={() => window.open("https://www.lucidchart.com/pages/landing", "_blank")}>
                                 Lucid Chart Pro
                             </Link> to create charts/diagrams.
                         </p>
                         <p id="text-content-style">
                             For a full gallery of UI I created, please visit my other <Link 
                                 to="/https://rute-ui.herokuapp.com/" 
-                                target="_blank" onClick={() => window.open("https://rute-ui.herokuapp.com/", "_blank")} >
+                                target="_blank" onClick={() => window.open("https://rute-ui.herokuapp.com/", "_blank")}>
                                 site
                             </Link>.
                         </p>
@@ -244,19 +244,19 @@ class UI extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                    <NavLink to={"/technologies"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" >
-                            Prev
-                        </button>
+                        <NavLink to={"/technologies"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">
+                                Prev
+                            </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/to-do"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >
-                            Next
-                        </button>
+                        <NavLink to={"/to-do"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">
+                                Next
+                            </button>
                         </NavLink>
                     </div>
                 </div>

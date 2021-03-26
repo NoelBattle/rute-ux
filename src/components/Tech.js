@@ -30,7 +30,7 @@ class Tech extends Component {
                             <FontAwesomeIcon id="header-icon"  icon={faRobot} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">Technologies</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -113,7 +113,7 @@ class Tech extends Component {
                                     </div>
                                     <p id="text-list-style" class="center-wid">
                                         <div class="row">
-                                            <div class="col-md-4" >
+                                            <div class="col-md-4">
                                                 <img  id="tech-node" alt="passport" src={passportPic}/> 
                                             </div>
                                             <div class="col-md-8 align-self-center">
@@ -163,14 +163,14 @@ class Tech extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                        <NavLink to={"/features/dark-mode"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >Prev</button>
+                        <NavLink to={"/features/dark-mode"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">Prev</button>
                         </NavLink>
                     </div>
                     <div class="col">
-                        <NavLink to={"/ui"} id="link-no-style" >
+                        <NavLink to={"/ui"} id="link-no-style">
                             <button  id="button-l" class="button-center-r">Next</button>
                         </NavLink>
                     </div>

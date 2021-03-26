@@ -171,14 +171,14 @@ class Info extends Component {
 
             <div class="row" id="next-prev-buttons">
                 <div class="col">
-                <NavLink to={"/research"} id="link-no-style" >
-                    <button  id="button-l" class="button-center-l" >Prev</button>
+                    <NavLink to={"/research"} id="link-no-style" >
+                        <button  id="button-l" class="button-center-l" >Prev</button>
                     </NavLink>
                 </div>
                 <div class="col">
-                <NavLink to={"/data-collection"} id="link-no-style" >
-                    <button  id="button-l" class="button-center-r" >Next</button>
-                </NavLink>
+                    <NavLink to={"/data-collection"} id="link-no-style" >
+                        <button  id="button-l" class="button-center-r" >Next</button>
+                    </NavLink>
                 </div>
             </div>
             

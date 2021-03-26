@@ -22,7 +22,7 @@ class Idea extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faLightbulb} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">Idea</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -73,19 +73,19 @@ class Idea extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                    <NavLink to={"/"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" >
-                            Prev
-                        </button>
+                        <NavLink to={"/"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">
+                                Prev
+                            </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/research"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >
-                            Next
-                        </button>
+                        <NavLink to={"/research"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">
+                                Next
+                            </button>
                         </NavLink>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ class Me extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faBrain} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">About Me</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -59,19 +59,19 @@ class Me extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                    <NavLink to={"/to-do"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" >
-                            Prev
-                        </button>
+                        <NavLink to={"/to-do"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">
+                                Prev
+                            </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/timeline"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >
-                            Next
-                        </button>
+                        <NavLink to={"/timeline"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">
+                                Next
+                            </button>
                         </NavLink>
                     </div>
                 </div>

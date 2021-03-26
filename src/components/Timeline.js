@@ -18,7 +18,7 @@ class Timeline extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faClock} />
                     </div>
                 </div>
-                <div class="row" id="header-text" >
+                <div class="row" id="header-text">
                     <div class="col">Timeline</div>
                 </div>
                 <div class="row" id="idea-idea">

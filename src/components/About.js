@@ -56,7 +56,7 @@ class About extends Component {
         <div>
           <div id="comp-div">
             <div class="row" id="about-header">
-              <div class="col-md-6" >
+              <div class="col-md-6">
                 <img alt="pig open"  id="about-header-pig" className={this.state.time===1?'animate-vis':'animate-hide'}
                 style={{zIndex:"8",}} src={pigOpen} />
                 <img alt="pig-open"  id="about-header-pig" className={this.state.time===2?'animate-vis':'animate-hide'}
@@ -64,7 +64,7 @@ class About extends Component {
                 <img alt="pig-closed"  id="about-header-pig" className={this.state.time===3?'animate-vis':'animate-hide'}
                 style={{zIndex:"8",}} src={pigClosed} />
               </div>
-              <div class="col-md-6" id="about-header-tex" >
+              <div class="col-md-6" id="about-header-tex">
                 <div class="row" id="about-header-text-b">
               <span id="text"> Rute</span>
                 </div>
@@ -79,7 +79,7 @@ class About extends Component {
             <div class="row" id="about-space"></div>
             <div class="row" id="about-content">
               <div class="col-md-1"></div>
-              <div class="col-md-11" >
+              <div class="col-md-11">
                 <div class="ro" id="about-content-text">
                   <div id="about-vid-div">
                     <span id="about-vid">
@@ -102,7 +102,7 @@ class About extends Component {
                       <li>Developing Functional Web Application</li>
                   </p>
                   <p id="text-content-style" class="center-wid">
-                    <NavLink to={"/timeline"} id="navhea" >
+                    <NavLink to={"/timeline"} id="navhea">
                     Timeline
                     </NavLink> 
                   : 9 Months
@@ -121,7 +121,7 @@ class About extends Component {
                 <button  id="button-l">
                   Next
                 </button>
-                </NavLink>
+              </NavLink>
             </div>
           </div>
           <div id="footer-div">

@@ -22,15 +22,10 @@ class Data extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faPoll} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">Data Collection</div>
-                            
-                            
                         </div>
-                        <div class="row" id="idea-idea">
-                        
-                            
-                        </div>
+                        <div class="row" id="idea-idea"></div>
                     </div>
                 </div>
                 <div class="row" id="idea-space"></div>
@@ -46,7 +41,6 @@ class Data extends Component {
                             <p id="text-content-style">
                             After examining other websites and reviewing the data I accumulated from my research interviews, I began to formulate a list of essential medical school information. I learned from my interviews that a major problem students have with MSARS is the school information is all on one page, requiring students to scroll. I improved upon this through the use of tabs. After I created my list, I broke the list down into 4 categories that serve as my tabs:
                             </p>
-
                         </div>
                         <div class="row">
                             <div class="col-md-2"></div>
@@ -65,22 +59,22 @@ class Data extends Component {
                         </p>
                         <p id="text-content-style">
                             <Link to="/https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0" 
-                            target="_blank" onClick={() => window.open("https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0", "_blank")} >Github Data Sample
+                            target="_blank" onClick={() => window.open("https://gist.github.com/NoelBattle/b5c47c6e63ad9c563bc852e0ace417c0", "_blank")}>Github Data Sample
                             </Link>
                         </p>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
 
-            <div class="row" id="next-prev-buttons" >
+            <div class="row" id="next-prev-buttons">
                 <div class="col">
-                    <NavLink to={"/info-architecture"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" > Prev</button>
+                    <NavLink to={"/info-architecture"} id="link-no-style">
+                        <button  id="button-l" class="button-center-l"> Prev</button>
                     </NavLink>
                 </div>
                 <div class="col">
-                    <NavLink to={"/wireframing"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >Next </button>
+                    <NavLink to={"/wireframing"} id="link-no-style">
+                        <button  id="button-l" class="button-center-r">Next </button>
                     </NavLink>
                 </div>
             </div>
@@ -88,8 +82,6 @@ class Data extends Component {
                 <Footer/>
             </div>
         </div>
-    
-    
         );
     }
 }

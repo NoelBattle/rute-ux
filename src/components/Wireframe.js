@@ -36,7 +36,7 @@ class Wireframe extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faSkull} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">Wireframing</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -56,7 +56,7 @@ class Wireframe extends Component {
 
                         <p id="text-content-style">
                         Note: Non-registered users can only access the Home page and Directory. Trying to access another route prompts the user to login/register. 
-                        More on this in the 'Login/Register' <NavLink to={"/features/login-register"} id="navhea" >
+                        More on this in the 'Login/Register' <NavLink to={"/features/login-register"} id="navhea">
                                     section
                                 </NavLink>. 
                         </p>
@@ -142,19 +142,19 @@ class Wireframe extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                    <NavLink to={"/data-collection"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" >
-                            Prev
-                        </button>
+                        <NavLink to={"/data-collection"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">
+                                Prev
+                            </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/features/directory-school"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >
-                            Next
-                        </button>
+                        <NavLink to={"/features/directory-school"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">
+                                Next
+                            </button>
                         </NavLink>
                     </div>
                 </div>

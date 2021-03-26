@@ -21,7 +21,7 @@ class Todo extends Component {
                             <FontAwesomeIcon id="header-icon"  icon={faClipboardList} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">To Do</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -152,14 +152,14 @@ class Todo extends Component {
                     <div class="col-md-1"></div>
                 </div>
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                        <NavLink to={"/ui"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >Prev</button>
+                        <NavLink to={"/ui"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">Prev</button>
                         </NavLink>
                     </div>
                     <div class="col">
-                        <NavLink to={"/about-me"} id="link-no-style" >
+                        <NavLink to={"/about-me"} id="link-no-style">
                             <button  id="button-l" class="button-center-r">Next</button>
                         </NavLink>
                     </div>

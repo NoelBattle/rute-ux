@@ -20,7 +20,7 @@ class FlowChart extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faSitemap} />
                     </div>
                 </div>
-                <div class="row" id="header-text" >
+                <div class="row" id="header-text">
                     <div class="col">User Flow</div>
                 </div>
             </div>
@@ -45,13 +45,13 @@ class FlowChart extends Component {
         </div>
         <div class="row" id="next-prev-buttons">
             <div class="col">
-                <button  id="button-l" class="button-center-l" >
-                    <NavLink to={"/info-architecture"} id="link-no-style" >Prev</NavLink>
+                <button  id="button-l" class="button-center-l">
+                    <NavLink to={"/info-architecture"} id="link-no-style">Prev</NavLink>
                 </button>
             </div>
             <div class="col">
-                <button  id="button-l" class="button-center-r" >
-                    <NavLink to={"/data-collection"} id="link-no-style" >Next</NavLink>
+                <button  id="button-l" class="button-center-r">
+                    <NavLink to={"/data-collection"} id="link-no-style">Next</NavLink>
                 </button>
             </div>
         </div>

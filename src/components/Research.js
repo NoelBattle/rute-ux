@@ -21,7 +21,7 @@ class Research extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faPoll} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">Research</div>
                         </div>
                         <div class="row" id="idea-idea">
@@ -100,20 +100,20 @@ class Research extends Component {
                 </p>
                 
 
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                        <NavLink to={"/idea"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" > Prev</button>
+                        <NavLink to={"/idea"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l"> Prev</button>
                         </NavLink>
                     </div>
                     <div class="col">
-                        <NavLink to={"/info-architecture"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-r" >Next</button>
+                        <NavLink to={"/info-architecture"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">Next</button>
                         </NavLink>
                     </div>
                 </div>
 
-                <div id="footer-div" >
+                <div id="footer-div">
                     <Footer/>
                 </div>
             </div>
